@@ -1,0 +1,17 @@
+Raw rows: 6,150
+Removed 150 exact duplicate rows -> 6,000 rows
+Standardised region labels: 16 variants -> 4 (unmapped: 0)
+Parsed 3 mixed date formats; unparseable dates: 0
+Fixed 10 negative quantities (sign errors)
+Flagged 8 impossible discounts (>100%) as missing
+Missing values before imputation:
+customer_id    120
+state          180
+quantity        40
+discount       158
+sales           60
+profit          80
+ship_mode       90
+Detected 7 sales outliers (>5x expected) -> recomputed from price x qty
+Recomputed 60 missing sales and 80 missing profit values from the product master
+Final clean rows: 6,000 | nulls remaining: 0

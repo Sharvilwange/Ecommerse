@@ -1,0 +1,25 @@
+product_id,product_name,category,unit_price,unit_cost
+P001,Laptop Pro 14,Technology,1250.0,928.95
+P002,Laptop Air 13,Technology,1050.0,836.67
+P003,Gaming Laptop X,Technology,1399.0,955.55
+P004,Wireless Mouse,Technology,618.0,382.03
+P005,Mechanical Keyboard,Technology,610.0,436.99
+P006,27in Monitor,Technology,1203.0,684.68
+P007,USB-C Hub,Technology,127.0,101.38
+P008,Webcam HD,Technology,978.0,723.23
+P009,Noise Cancelling Headphones,Technology,288.0,223.9
+P010,Bluetooth Speaker,Technology,139.0,91.23
+P011,Smartphone S,Technology,740.0,622.49
+P012,Smartphone Lite,Technology,1366.0,1117.3
+P013,Tablet 10,Technology,1032.0,808.59
+P014,Smartwatch,Technology,1067.0,649.15
+P015,Fitness Band,Technology,1006.0,694.16
+P016,Office Chair,Furniture,1102.0,620.58
+P017,Standing Desk,Furniture,722.0,430.52
+P018,Desk Lamp,Furniture,186.0,140.41
+P019,Notebook Pack,Office Supplies,9.0,6.96
+P020,Gel Pen Set,Office Supplies,7.0,5.88
+P021,Printer Ink Set,Office Supplies,704.0,456.01
+P022,Laser Printer,Technology,524.0,346.44
+P023,External SSD 1TB,Technology,262.0,181.01
+P024,Power Bank 20000mAh,Technology,1298.0,787.68

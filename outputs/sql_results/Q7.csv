@@ -1,0 +1,13 @@
+region,product_name,revenue,rnk
+East,27in Monitor,292810.2,1
+East,Gaming Laptop X,279869.95,2
+East,Laptop Pro 14,267750.0,3
+North,Gaming Laptop X,426205.35,1
+North,Laptop Pro 14,398812.5,2
+North,27in Monitor,386163.0,3
+South,Gaming Laptop X,646617.8,1
+South,Laptop Pro 14,492875.0,2
+South,Laptop Air 13,370440.0,3
+West,Laptop Pro 14,748250.0,1
+West,Gaming Laptop X,683131.7,2
+West,Laptop Air 13,459322.5,3

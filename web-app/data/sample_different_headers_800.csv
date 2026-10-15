@@ -1,0 +1,801 @@
+order_number,date,client_id,cust_segment,territory,province,sku,item_name,dept,units,promo,revenue,earnings,delivery_mode
+ORD-200000,"Jun 27, 2025",CUST1272,Home Office,West,Tamil Nadu,P016,Office Chair,Furniture,7,0,7714,1772.92,First Class
+ORD-200001,2025-11-29,CUST2205,Consumer,West,Gujarat,P002,Laptop Air 13,Technology,10,0.05,9975.0,1095.66,First Class
+ORD-200002,2025-02-16,CUST2387,Corporate,East,Tamil Nadu,P003,Gaming Laptop X,Technology,10,0,13990,1047.71,Same Day
+ORD-200003,22/02/2024,CUST1165,Consumer,West,Maharashtra,P001,Laptop Pro 14,Technology,7,0,8750,1389.15,Second Class
+ORD-200004,2024-01-24,CUST2030,Corporate,North,Gujarat,P003,Gaming Laptop X,Technology,8,0.1,10072.8,3298.38,Standard Class
+ORD-200005,2024-07-24,CUST1011,Home Office,West,Maharashtra,P002,Laptop Air 13,Technology,7,0.15,6247.5,473.6,Second Class
+ORD-200006,"May 14, 2024",CUST1724,Home Office,North,Tamil Nadu,P017,Standing Desk,Furniture,5,0.1,3249.0,556.29,Same Day
+ORD-200007,2024-05-29,CUST1606,Home Office,West,Karnataka,P003,Gaming Laptop X,Technology,10,0.05,13290.5,1160.39,Second Class
+ORD-200008,"Jan 12, 2024",CUST1740,Consumer,East,Karnataka,P017,Standing Desk,Furniture,4,0.2,2310.4,294.07,Standard Class
+ORD-200009,2024-07-04,CUST1790,Corporate,North,Gujarat,P005,Mechanical Keyboard,Technology,7,0.05,4056.5,612.64,First Class
+ORD-200010,"Dec 29, 2025",CUST2474,Home Office,South,Maharashtra,P017,Standing Desk,Furniture,4,0,2888,883.94,First Class
+ORD-200011,30/05/2025,CUST1896,Home Office,North,Karnataka,P016,Office Chair,Furniture,5,0.05,5234.5,1441.85,First Class
+ORD-200012,"Jan 23, 2025",CUST1595,Home Office,East,Tamil Nadu,P017,Standing Desk,Furniture,9,0,6498,2137.51,Second Class
+ORD-200013,12/12/2025,CUST1707,Consumer,East,Maharashtra,P020,Gel Pen Set,Office Supplies,8,0,56,9.18,
+ORD-200014,2024-01-04,CUST1836,Home Office,West,Tamil Nadu,P008,Webcam HD,Technology,7,0.15,5819.1,1604.88,First Class
+ORD-200015,"Sep 27, 2024",CUST1342,Home Office,South,Gujarat,P005,Mechanical Keyboard,Technology,1,0.1,549.0,78.6,Same Day
+ORD-200016,17/04/2024,CUST2240,Consumer,North,Tamil Nadu,P017,Standing Desk,Furniture,9,0.1,5848.2,1390.66,Second Class
+ORD-200017,12/04/2024,CUST2282,Corporate,South,Maharashtra,P001,Laptop Pro 14,Technology,1,0.05,1187.5,166.15,First Class
+ORD-200018,"Jul 29, 2025",CUST1914,Consumer,West,Karnataka,P008,Webcam HD,Technology,8,0,7824,692.74,Same Day
+ORD-200019,2025-11-11,CUST2433,Consumer,West,Tamil Nadu,P008,Webcam HD,Technology,4,0,3912,739.17,Same Day
+ORD-200020,2025-10-10,CUST2011,Home Office,East,Karnataka,P005,Mechanical Keyboard,Technology,8,0.1,4392.0,239.91,Standard Class
+ORD-200021,22/07/2025,CUST1813,Consumer,South,Gujarat,P016,Office Chair,Furniture,5,0,5510,500.56,First Class
+ORD-200022,2025-07-27,CUST1351,Home Office,North,Maharashtra,P001,Laptop Pro 14,Technology,7,0,8750,2551.56,First Class
+ORD-200023,"Feb 3, 2024",CUST1257,Home Office,North,Gujarat,P010,Bluetooth Speaker,Technology,9,0,1251,341.56,Second Class
+ORD-200024,24/02/2024,CUST2245,Home Office,East,Gujarat,P003,Gaming Laptop X,Technology,6,0.2,6715.2,1911.71,Second Class
+ORD-200025,"Jan 20, 2025",CUST2316,Consumer,South,Maharashtra,P005,Mechanical Keyboard,Technology,5,0,3050,828.55,Standard Class
+ORD-200026,30/03/2025,CUST1164,Corporate,South,Karnataka,P020,Gel Pen Set,Office Supplies,8,0.15,47.6,13.7,Second Class
+ORD-200027,23/07/2025,CUST1325,Corporate,East,Delhi,P020,Gel Pen Set,Office Supplies,1,0.1,6.3,1.06,Standard Class
+ORD-200028,05/02/2024,CUST2242,Corporate,East,Tamil Nadu,P017,Standing Desk,Furniture,7,0.2,4043.2,289.86,First Class
+ORD-200029,"Mar 5, 2025",,Home Office,West,Maharashtra,P005,Mechanical Keyboard,Technology,9,0,5490,1416.91,First Class
+ORD-200030,"Jan 5, 2024",CUST2326,Consumer,West,Maharashtra,P003,Gaming Laptop X,Technology,9,0.05,11961.45,4156.51,Standard Class
+ORD-200031,"Jan 4, 2024",CUST1521,Consumer,South,Tamil Nadu,P003,Gaming Laptop X,Technology,3,0.15,3567.45,499.95,Same Day
+ORD-200032,2025-05-29,CUST1890,Consumer,East,Tamil Nadu,P016,Office Chair,Furniture,8,0,8816,878.87,Standard Class
+ORD-200033,"May 1, 2025",CUST1413,Consumer,South,Maharashtra,P017,Standing Desk,Furniture,4,0.15,2454.8,752.2,Second Class
+ORD-200034,"Dec 4, 2025",CUST2112,Corporate,South,Gujarat,P008,Webcam HD,Technology,3,0.15,2493.9,510.62,Second Class
+ORD-200035,2025-10-04,CUST2156,Consumer,North,Gujarat,P019,Notebook Pack,Office Supplies,9,0,81,9.92,Second Class
+ORD-200036,"Aug 14, 2025",CUST1379,Corporate,North,Maharashtra,P001,Laptop Pro 14,Technology,6,0,7500,2456.72,First Class
+ORD-200037,2024-02-27,CUST1624,Corporate,West,Maharashtra,P010,Bluetooth Speaker,Technology,2,0,278,42.64,Second Class
+ORD-200038,2025-07-05,CUST1734,Consumer,South,Delhi,P003,Gaming Laptop X,Technology,10,0,13990,4203.25,Same Day
+ORD-200039,04/11/2025,CUST1144,Consumer,North,Karnataka,P001,Laptop Pro 14,Technology,3,0,3750,437.38,Same Day
+ORD-200040,"Oct 6, 2024",CUST2320,Consumer,North,Delhi,P017,Standing Desk,Furniture,7,0.1,4548.6,1422.91,First Class
+ORD-200041,"Mar 28, 2025",CUST1628,Corporate,South,Tamil Nadu,P001,Laptop Pro 14,Technology,4,0,5000,739.09,Second Class
+ORD-200042,21/12/2025,CUST1249,Corporate,West,Karnataka,P001,Laptop Pro 14,Technology,10,0.15,10625.0,1366.13,First Class
+ORD-200043,"Mar 10, 2024",CUST1216,Corporate,South,Gujarat,P019,Notebook Pack,Office Supplies,4,0.1,32.4,8.36,Same Day
+ORD-200044,15/07/2024,,Home Office,West,Tamil Nadu,P017,Standing Desk,Furniture,6,0.1,3898.8,294.5,Second Class
+ORD-200045,16/03/2025,CUST1417,Consumer,North,Maharashtra,P020,Gel Pen Set,Office Supplies,1,0,7,0.6,Standard Class
+ORD-200046,20/03/2024,CUST1378,Home Office,North,Karnataka,P008,Webcam HD,Technology,3,0.15,2493.9,435.46,Same Day
+ORD-200047,2025-02-04,CUST2238,Corporate,West,Tamil Nadu,P008,Webcam HD,Technology,3,0.2,2347.2,310.39,First Class
+ORD-200048,2025-10-11,CUST1627,Corporate,East,Karnataka,P017,Standing Desk,Furniture,4,0.2,2310.4,806.43,First Class
+ORD-200049,23/07/2025,CUST1470,Consumer,South,Tamil Nadu,P003,Gaming Laptop X,Technology,4,0,5596,1136.65,Standard Class
+ORD-200050,11/03/2025,CUST1168,Consumer,North,Delhi,P001,Laptop Pro 14,Technology,6,0.15,6375.0,1820.84,
+ORD-200051,26/12/2025,CUST1611,Consumer,East,Tamil Nadu,P001,Laptop Pro 14,Technology,4,0.2,4000.0,1319.86,Second Class
+ORD-200052,"Dec 8, 2024",,Consumer,West,Gujarat,P005,Mechanical Keyboard,Technology,2,0.1,1098.0,91.65,First Class
+ORD-200053,"Aug 1, 2024",CUST1267,Home Office,South,Tamil Nadu,P008,Webcam HD,Technology,8,0.1,7041.6,1654.52,First Class
+ORD-200054,"Jan 17, 2024",CUST2491,Home Office,North,Karnataka,P016,Office Chair,Furniture,8,0,8816,2037.56,First Class
+ORD-200055,20/07/2025,CUST2379,Home Office,South,Delhi,P003,Gaming Laptop X,Technology,3,0.05,3987.15,254.13,First Class
+ORD-200056,2025-10-05,CUST1406,Corporate,South,Gujarat,P019,Notebook Pack,Office Supplies,5,0,45,11.27,Standard Class
+ORD-200057,2024-05-17,CUST1772,Corporate,East,Delhi,P016,Office Chair,Furniture,9,0.1,8926.2,1462.47,Second Class
+ORD-200058,2025-02-21,CUST1254,Consumer,East,Maharashtra,P001,Laptop Pro 14,Technology,6,0.05,7125.0,1026.17,First Class
+ORD-200059,06/11/2024,CUST1505,Home Office,East,Gujarat,P008,Webcam HD,Technology,1,0.1,880.2,178.11,Second Class
+ORD-200060,2025-06-03,CUST2333,Consumer,South,Gujarat,P002,Laptop Air 13,Technology,6,0,6300,2008.91,First Class
+ORD-200061,2024-01-16,CUST1727,Home Office,North,Delhi,P002,Laptop Air 13,Technology,6,0.1,5670.0,1911.28,Standard Class
+ORD-200062,2025-09-13,CUST2301,Consumer,North,Gujarat,P017,Standing Desk,Furniture,4,0.15,2454.8,509.12,Second Class
+ORD-200063,2024-11-04,CUST1590,Home Office,North,Delhi,P003,Gaming Laptop X,Technology,3,0.2,3357.6,1091.32,Standard Class
+ORD-200064,2025-12-15,CUST2020,Home Office,East,Delhi,P005,Mechanical Keyboard,Technology,10,0.05,5795.0,1764.79,First Class
+ORD-200065,08/06/2025,CUST2364,Corporate,South,Delhi,P010,Bluetooth Speaker,Technology,10,0.2,1112.0,180.0,First Class
+ORD-200066,20/12/2025,CUST1621,Consumer,North,Maharashtra,P016,Office Chair,Furniture,7,0.15,6556.9,2274.49,Second Class
+ORD-200067,28/09/2024,CUST1659,Consumer,South,Delhi,P001,Laptop Pro 14,Technology,3,0.1,3375.0,1041.1,Same Day
+ORD-200068,2025-08-03,CUST1985,Home Office,East,Tamil Nadu,P003,Gaming Laptop X,Technology,9,0.05,11961.45,2265.43,Second Class
+ORD-200069,04/12/2024,CUST1956,Home Office,West,Karnataka,P001,Laptop Pro 14,Technology,9,0.05,10687.5,2313.01,Standard Class
+ORD-200070,"Sep 7, 2024",CUST2287,Corporate,South,Maharashtra,P010,Bluetooth Speaker,Technology,4,0.15,472.6,32.76,Same Day
+ORD-200071,24/03/2025,CUST2291,Home Office,East,Delhi,P010,Bluetooth Speaker,Technology,2,0,278,18.87,Second Class
+ORD-200072,"May 7, 2025",CUST1889,Corporate,South,Maharashtra,P003,Gaming Laptop X,Technology,9,0.15,10702.35,1911.41,Second Class
+ORD-200073,21/09/2025,CUST1997,Consumer,West,Gujarat,P017,Standing Desk,Furniture,8,0.05,5487.2,576.08,First Class
+ORD-200074,2024-07-19,CUST1780,Consumer,North,Tamil Nadu,P001,Laptop Pro 14,Technology,8,0,10000,863.91,First Class
+ORD-200075,13/08/2024,,Consumer,South,Karnataka,P016,Office Chair,Furniture,9,0.2,7934.4,2755.66,Second Class
+ORD-200076,07/07/2024,CUST2235,Corporate,North,Gujarat,P001,Laptop Pro 14,Technology,1,0.2,1000.0,110.21,Second Class
+ORD-200077,2024-04-17,CUST1598,Home Office,West,Delhi,P010,Bluetooth Speaker,Technology,6,0,834,270.5,
+ORD-200078,31/10/2025,CUST1755,Home Office,East,Gujarat,P005,Mechanical Keyboard,Technology,7,0.2,3416.0,460.17,Same Day
+ORD-200079,29/12/2025,CUST1184,Home Office,West,Delhi,P017,Standing Desk,Furniture,1,0.05,685.9,40.2,Standard Class
+ORD-200080,"Jun 20, 2024",CUST1552,Consumer,West,Karnataka,P003,Gaming Laptop X,Technology,6,0,8394,1339.81,First Class
+ORD-200081,02/02/2025,CUST1167,Consumer,East,Maharashtra,P019,Notebook Pack,Office Supplies,2,0,18,4.51,Standard Class
+ORD-200082,2024-11-17,CUST1343,Corporate,East,Karnataka,P001,Laptop Pro 14,Technology,3,0.1,3375.0,423.07,Standard Class
+ORD-200083,2024-06-07,CUST2372,Corporate,North,Karnataka,P017,Standing Desk,Furniture,3,0,2166,678.79,
+ORD-200084,2024-03-04,CUST2184,Corporate,South,Gujarat,P017,Standing Desk,Furniture,3,0,2166,197.25,First Class
+ORD-200085,16/05/2025,CUST2304,Corporate,East,Maharashtra,P002,Laptop Air 13,Technology,10,0,10500,3067.73,Second Class
+ORD-200086,20/08/2024,CUST1929,Home Office,West,Delhi,P020,Gel Pen Set,Office Supplies,4,0,28,9.21,Second Class
+ORD-200087,2024-02-02,CUST2133,Corporate,South,Gujarat,P005,Mechanical Keyboard,Technology,6,0.05,3477.0,992.58,Standard Class
+ORD-200088,02/10/2024,CUST1252,Corporate,North,Maharashtra,P001,Laptop Pro 14,Technology,2,0,2500,252.43,Standard Class
+ORD-200089,2024-12-28,CUST1401,Home Office,North,Karnataka,P017,Standing Desk,Furniture,7,0.1,4548.6,291.44,First Class
+ORD-200090,18/09/2025,CUST1091,Consumer,South,Karnataka,P008,Webcam HD,Technology,10,0,9780,2360.26,First Class
+ORD-200091,2024-07-25,,Consumer,South,Gujarat,P019,Notebook Pack,Office Supplies,7,0.15,53.55,6.07,Standard Class
+ORD-200092,"Nov 25, 2025",CUST1427,Corporate,West,Tamil Nadu,P002,Laptop Air 13,Technology,10,0.2,8400.0,1087.36,Standard Class
+ORD-200093,"Jun 8, 2025",CUST1951,Consumer,South,Maharashtra,P008,Webcam HD,Technology,10,0,9780,2011.81,Same Day
+ORD-200094,17/01/2024,CUST2081,Corporate,East,Maharashtra,P002,Laptop Air 13,Technology,2,0,2100,484.44,Same Day
+ORD-200095,"Jun 7, 2024",CUST2042,Corporate,South,Karnataka,P010,Bluetooth Speaker,Technology,10,0,1390,99.58,First Class
+ORD-200096,"Sep 17, 2025",CUST1429,Home Office,South,Delhi,P020,Gel Pen Set,Office Supplies,8,0,56,8.57,First Class
+ORD-200097,29/09/2025,CUST1940,Consumer,South,Tamil Nadu,P017,Standing Desk,Furniture,10,0,7220,1391.54,Second Class
+ORD-200098,2025-07-28,,Consumer,East,Gujarat,P017,Standing Desk,Furniture,5,0,3610,1101.22,Second Class
+ORD-200099,"Apr 17, 2024",CUST1319,Corporate,West,Karnataka,P019,Notebook Pack,Office Supplies,10,0.1,81.0,8.47,Standard Class
+ORD-200100,"Aug 15, 2025",CUST1996,Home Office,West,Karnataka,P019,Notebook Pack,Office Supplies,7,0.2,50.4,11.35,Standard Class
+ORD-200101,24/12/2025,CUST2317,Home Office,South,Maharashtra,P005,Mechanical Keyboard,Technology,6,0,3660,295.88,Second Class
+ORD-200102,2024-02-28,CUST1783,Consumer,East,Tamil Nadu,P005,Mechanical Keyboard,Technology,10,0.05,5795.0,1662.45,Same Day
+ORD-200103,2024-04-18,CUST2277,Consumer,East,Karnataka,P002,Laptop Air 13,Technology,2,0.05,1995.0,209.96,Same Day
+ORD-200104,"Jul 22, 2024",CUST1141,Home Office,West,Karnataka,P017,Standing Desk,Furniture,3,0,2166,645.83,First Class
+ORD-200105,21/02/2025,CUST1918,Corporate,South,Karnataka,P020,Gel Pen Set,Office Supplies,7,0.1,44.1,10.2,Second Class
+ORD-200106,25/11/2025,CUST1437,Home Office,West,Delhi,P010,Bluetooth Speaker,Technology,7,0,973,70.66,Standard Class
+ORD-200107,2024-03-18,CUST1982,Home Office,South,Gujarat,P005,Mechanical Keyboard,Technology,2,0.05,1159.0,263.19,
+ORD-200108,2024-02-02,CUST2348,Corporate,West,Tamil Nadu,P003,Gaming Laptop X,Technology,3,0.15,3567.45,418.48,Standard Class
+ORD-200109,28/04/2025,CUST1399,Corporate,South,Karnataka,P016,Office Chair,Furniture,3,0,3306,1053.9,Standard Class
+ORD-200110,27/05/2025,CUST1057,Corporate,East,Delhi,P020,Gel Pen Set,Office Supplies,7,0.2,39.2,9.91,Standard Class
+ORD-200111,18/11/2025,CUST2297,Home Office,South,Gujarat,P001,Laptop Pro 14,Technology,8,0,10000,970.05,Standard Class
+ORD-200112,2025-06-26,,Consumer,West,Maharashtra,P020,Gel Pen Set,Office Supplies,10,0.1,63.0,16.95,Standard Class
+ORD-200113,2025-06-25,CUST2458,Corporate,North,Maharashtra,P017,Standing Desk,Furniture,6,0,4332,831.23,Second Class
+ORD-200114,26/01/2025,CUST1527,Home Office,South,Karnataka,P005,Mechanical Keyboard,Technology,5,0.15,2592.5,235.71,Same Day
+ORD-200115,2024-11-22,CUST1107,Consumer,South,Maharashtra,P002,Laptop Air 13,Technology,9,0.05,8977.5,2880.09,Second Class
+ORD-200116,09/03/2024,CUST1776,Home Office,South,Maharashtra,P016,Office Chair,Furniture,9,0,9918,1513.09,First Class
+ORD-200117,05/12/2025,,Corporate,East,Maharashtra,P020,Gel Pen Set,Office Supplies,3,0.2,16.8,1.39,Standard Class
+ORD-200118,"Nov 4, 2024",CUST1172,Consumer,North,Gujarat,P002,Laptop Air 13,Technology,4,0.15,3570.0,236.24,Same Day
+ORD-200119,2024-03-14,CUST2406,Home Office,West,Gujarat,P005,Mechanical Keyboard,Technology,3,0.15,1555.5,141.22,First Class
+ORD-200120,"Jun 14, 2024",CUST1993,Consumer,North,Delhi,P003,Gaming Laptop X,Technology,6,0.15,7134.9,1878.42,Standard Class
+ORD-200121,2024-06-29,CUST2207,Corporate,West,Tamil Nadu,P005,Mechanical Keyboard,Technology,6,0.1,3294.0,607.02,Same Day
+ORD-200122,07/02/2025,CUST1001,Consumer,East,Karnataka,P010,Bluetooth Speaker,Technology,5,0.2,556.0,159.29,Standard Class
+ORD-200123,"Aug 20, 2024",CUST2170,Corporate,South,Maharashtra,P008,Webcam HD,Technology,2,0,1956,438.88,Second Class
+ORD-200124,"Sep 21, 2024",CUST1664,Corporate,West,Maharashtra,P005,Mechanical Keyboard,Technology,1,0.1,549.0,35.06,Same Day
+ORD-200125,2024-12-10,CUST2188,Consumer,North,Delhi,P019,Notebook Pack,Office Supplies,4,0.2,28.8,5.07,Second Class
+ORD-200126,"Sep 1, 2025",CUST2357,Consumer,North,Karnataka,P002,Laptop Air 13,Technology,10,0.15,8925.0,2068.49,Second Class
+ORD-200127,23/12/2024,CUST1917,Home Office,East,Tamil Nadu,P017,Standing Desk,Furniture,10,0.05,6859.0,600.6,Same Day
+ORD-200128,"Mar 26, 2025",CUST1284,Corporate,East,Karnataka,P019,Notebook Pack,Office Supplies,4,0.15,30.6,6.0,Same Day
+ORD-200129,2025-04-04,CUST1609,Corporate,South,Maharashtra,P008,Webcam HD,Technology,6,0,5868,751.38,Same Day
+ORD-200130,2024-04-19,CUST1056,Corporate,North,Gujarat,P016,Office Chair,Furniture,2,0.05,2093.8,477.85,Second Class
+ORD-200131,2024-04-09,CUST2438,Corporate,North,Maharashtra,P019,Notebook Pack,Office Supplies,4,0.1,32.4,4.61,Same Day
+ORD-200132,02/06/2024,,Consumer,East,Delhi,P005,Mechanical Keyboard,Technology,9,0,5490,1356.96,Second Class
+ORD-200133,27/11/2024,CUST1745,Corporate,South,Karnataka,P010,Bluetooth Speaker,Technology,6,0,834,70.44,Same Day
+ORD-200134,2024-12-29,CUST2263,Consumer,North,Gujarat,P019,Notebook Pack,Office Supplies,2,0.1,16.2,2.77,
+ORD-200135,24/08/2025,CUST1784,Corporate,South,Delhi,P017,Standing Desk,Furniture,6,0,4332,735.34,Same Day
+ORD-200136,2024-04-30,CUST1603,Home Office,West,Karnataka,P002,Laptop Air 13,Technology,10,0.15,8925.0,3094.34,Same Day
+ORD-200137,"May 6, 2024",CUST1771,Home Office,West,Maharashtra,P001,Laptop Pro 14,Technology,1,0,1250,279.88,First Class
+ORD-200138,2024-09-23,CUST2372,Consumer,North,Delhi,P017,Standing Desk,Furniture,2,0.05,1371.8,254.72,Same Day
+ORD-200139,"Nov 8, 2025",CUST1447,Home Office,East,Karnataka,P016,Office Chair,Furniture,3,0,3306,560.8,Second Class
+ORD-200140,"Oct 13, 2025",,Home Office,East,Delhi,P020,Gel Pen Set,Office Supplies,2,0.1,12.6,1.6,Second Class
+ORD-200141,"Jun 21, 2024",CUST1198,Consumer,East,Gujarat,P017,Standing Desk,Furniture,8,0.1,5198.4,1316.33,Same Day
+ORD-200142,"Feb 28, 2024",CUST1345,Home Office,North,Delhi,P016,Office Chair,Furniture,4,0.15,3746.8,580.3,Same Day
+ORD-200143,26/06/2024,CUST1083,Consumer,East,Delhi,P019,Notebook Pack,Office Supplies,10,0,90,21.67,First Class
+ORD-200144,2025-06-01,CUST2125,Consumer,West,Tamil Nadu,P003,Gaming Laptop X,Technology,7,0.15,8324.05,1099.64,First Class
+ORD-200145,08/02/2025,,Consumer,West,Delhi,P003,Gaming Laptop X,Technology,7,0,9793,2564.5,Second Class
+ORD-200146,2024-01-06,CUST2406,Corporate,West,Maharashtra,P003,Gaming Laptop X,Technology,5,0.05,6645.25,1383.72,First Class
+ORD-200147,"May 31, 2025",CUST2039,Corporate,North,Maharashtra,P005,Mechanical Keyboard,Technology,10,0.05,5795.0,1341.27,Same Day
+ORD-200148,2025-02-21,CUST1016,Corporate,East,Maharashtra,P001,Laptop Pro 14,Technology,2,0.15,2125.0,222.56,Second Class
+ORD-200149,"Jan 8, 2025",CUST1384,Corporate,West,Maharashtra,P001,Laptop Pro 14,Technology,3,0.05,3562.5,278.84,Second Class
+ORD-200150,2025-08-21,CUST2381,Home Office,North,Karnataka,P003,Gaming Laptop X,Technology,3,0.2,3357.6,190.67,First Class
+ORD-200151,"Jul 23, 2024",CUST1814,Corporate,West,Maharashtra,P001,Laptop Pro 14,Technology,9,0.2,9000.0,2411.77,Standard Class
+ORD-200152,30/12/2024,CUST1143,Consumer,East,Delhi,P002,Laptop Air 13,Technology,4,0.15,3570.0,979.94,Second Class
+ORD-200153,26/03/2025,CUST1700,Corporate,South,Delhi,P003,Gaming Laptop X,Technology,6,0,8394,477.02,Same Day
+ORD-200154,"Sep 18, 2025",CUST2371,Corporate,East,Delhi,P008,Webcam HD,Technology,9,0,8802,790.52,First Class
+ORD-200155,"Mar 9, 2025",CUST1084,Corporate,South,Tamil Nadu,P010,Bluetooth Speaker,Technology,2,0,278,57.06,Same Day
+ORD-200156,30/03/2025,CUST1151,Home Office,South,Tamil Nadu,P005,Mechanical Keyboard,Technology,5,0.15,2592.5,631.27,Standard Class
+ORD-200157,2025-12-24,CUST1795,Corporate,East,Gujarat,P020,Gel Pen Set,Office Supplies,6,0,42,10.18,
+ORD-200158,2024-05-18,CUST1635,Corporate,West,Gujarat,P005,Mechanical Keyboard,Technology,5,0.05,2897.5,432.98,Same Day
+ORD-200159,2025-04-25,CUST1896,Home Office,East,Delhi,P002,Laptop Air 13,Technology,6,0.05,5985.0,1533.09,First Class
+ORD-200160,26/12/2024,CUST1490,Consumer,North,Delhi,P003,Gaming Laptop X,Technology,1,0.15,1189.15,325.84,First Class
+ORD-200161,"Feb 8, 2025",CUST1931,Consumer,South,Maharashtra,P008,Webcam HD,Technology,3,0.2,2347.2,306.37,First Class
+ORD-200162,"Aug 25, 2025",CUST1984,Corporate,South,Tamil Nadu,P001,Laptop Pro 14,Technology,6,0.05,7125.0,706.16,
+ORD-200163,2025-12-06,CUST2139,Home Office,East,Tamil Nadu,P002,Laptop Air 13,Technology,1,0,1050,330.06,Second Class
+ORD-200164,26/03/2024,CUST1063,Home Office,South,Delhi,P002,Laptop Air 13,Technology,5,0.05,4987.5,1490.68,Standard Class
+ORD-200165,2024-11-02,CUST1793,Consumer,North,Gujarat,P005,Mechanical Keyboard,Technology,2,0.05,1159.0,68.04,
+ORD-200166,2025-06-16,CUST1711,Consumer,East,Gujarat,P002,Laptop Air 13,Technology,8,0,8400,2472.6,Standard Class
+ORD-200167,2025-07-25,,Consumer,East,Karnataka,P020,Gel Pen Set,Office Supplies,8,0.1,50.4,12.53,Standard Class
+ORD-200168,2024-12-08,CUST1007,Home Office,North,Tamil Nadu,P016,Office Chair,Furniture,7,0.2,6171.2,1629.47,First Class
+ORD-200169,2024-08-14,CUST2216,Home Office,South,Maharashtra,P010,Bluetooth Speaker,Technology,9,0,1251,345.46,Standard Class
+ORD-200170,02/05/2025,CUST2126,Home Office,West,Karnataka,P020,Gel Pen Set,Office Supplies,6,0,42,9.17,Second Class
+ORD-200171,17/08/2024,CUST2119,Home Office,South,Gujarat,P008,Webcam HD,Technology,8,0.2,6259.2,799.02,First Class
+ORD-200172,"Mar 1, 2025",CUST1017,Consumer,South,Gujarat,P001,Laptop Pro 14,Technology,8,0,10000,1706.02,Same Day
+ORD-200173,2024-07-17,CUST1525,Home Office,South,Gujarat,P019,Notebook Pack,Office Supplies,5,0,45,14.27,First Class
+ORD-200174,"Apr 19, 2024",CUST1239,Consumer,East,Gujarat,P019,Notebook Pack,Office Supplies,8,0.1,64.8,13.38,Same Day
+ORD-200175,2025-08-01,CUST1896,Corporate,North,Delhi,P020,Gel Pen Set,Office Supplies,7,0.15,41.65,12.0,Same Day
+ORD-200176,2025-02-25,CUST1712,Home Office,South,Karnataka,P020,Gel Pen Set,Office Supplies,9,0.2,50.4,4.7,Second Class
+ORD-200177,2024-10-20,CUST1255,Consumer,East,Gujarat,P010,Bluetooth Speaker,Technology,8,0.1,1000.8,316.51,Same Day
+ORD-200178,2024-06-29,CUST1603,Corporate,East,Maharashtra,P010,Bluetooth Speaker,Technology,4,0,556,73.02,Same Day
+ORD-200179,2024-03-19,CUST1372,Corporate,West,Tamil Nadu,P019,Notebook Pack,Office Supplies,3,0,27,4.48,Standard Class
+ORD-200180,08/01/2025,CUST2089,Consumer,West,Delhi,P008,Webcam HD,Technology,9,0.2,7041.6,949.21,Same Day
+ORD-200181,01/11/2024,CUST1448,Home Office,East,Maharashtra,P003,Gaming Laptop X,Technology,8,0.2,8953.6,1871.53,Second Class
+ORD-200182,25/04/2024,CUST1652,Consumer,South,Maharashtra,P008,Webcam HD,Technology,4,0.2,3129.6,880.51,First Class
+ORD-200183,2025-07-27,CUST2119,Corporate,North,Delhi,P016,Office Chair,Furniture,2,0,2204,413.73,First Class
+ORD-200184,23/02/2024,CUST1541,Home Office,East,Karnataka,P003,Gaming Laptop X,Technology,3,0,4197,867.19,First Class
+ORD-200185,"Mar 30, 2024",CUST1305,Corporate,West,Tamil Nadu,P010,Bluetooth Speaker,Technology,8,0,1112,273.3,First Class
+ORD-200186,16/02/2024,CUST2118,Home Office,West,Maharashtra,P002,Laptop Air 13,Technology,3,0,3150,622.17,Second Class
+ORD-200187,2025-04-08,,Corporate,North,Tamil Nadu,P001,Laptop Pro 14,Technology,9,0,11250,721.73,
+ORD-200188,14/05/2025,CUST2223,Corporate,East,Gujarat,P017,Standing Desk,Furniture,2,0,1444,110.13,First Class
+ORD-200189,2025-08-09,CUST1082,Home Office,West,Gujarat,P019,Notebook Pack,Office Supplies,5,0.15,38.25,8.94,First Class
+ORD-200190,14/12/2025,CUST2113,Home Office,South,Delhi,P020,Gel Pen Set,Office Supplies,9,0.1,56.7,5.12,Standard Class
+ORD-200191,2024-05-28,CUST1238,Corporate,North,Delhi,P020,Gel Pen Set,Office Supplies,10,0,70,23.0,Second Class
+ORD-200192,"Apr 6, 2025",CUST2090,Consumer,South,Gujarat,P020,Gel Pen Set,Office Supplies,10,0.05,66.5,15.97,First Class
+ORD-200193,"Feb 26, 2024",CUST2404,Home Office,West,Delhi,P008,Webcam HD,Technology,3,0,2934,752.08,Standard Class
+ORD-200194,"Dec 18, 2025",CUST1476,Corporate,North,Tamil Nadu,P008,Webcam HD,Technology,7,0.05,6503.7,1694.18,Standard Class
+ORD-200195,2025-03-16,CUST1721,Home Office,South,Tamil Nadu,P010,Bluetooth Speaker,Technology,4,0,556,166.42,First Class
+ORD-200196,2024-04-09,CUST1103,Corporate,West,Karnataka,P003,Gaming Laptop X,Technology,7,0.1,8813.7,3067.63,Second Class
+ORD-200197,2024-02-08,CUST1560,Consumer,South,Tamil Nadu,P005,Mechanical Keyboard,Technology,5,0,3050,353.04,Same Day
+ORD-200198,"Feb 14, 2025",,Consumer,North,Tamil Nadu,P020,Gel Pen Set,Office Supplies,9,0,63,11.45,First Class
+ORD-200199,16/04/2025,CUST1014,Corporate,North,Maharashtra,P016,Office Chair,Furniture,3,0,3306,394.17,Second Class
+ORD-200200,2024-10-31,CUST1129,Home Office,North,Karnataka,P010,Bluetooth Speaker,Technology,4,0.2,444.8,113.2,Standard Class
+ORD-200201,"May 5, 2024",CUST1361,Consumer,East,Maharashtra,P020,Gel Pen Set,Office Supplies,4,0,28,3.58,Second Class
+ORD-200202,"Oct 7, 2024",CUST1014,Corporate,South,Tamil Nadu,P017,Standing Desk,Furniture,9,0.15,5523.3,1625.55,Standard Class
+ORD-200203,2025-04-08,,Corporate,South,Maharashtra,P002,Laptop Air 13,Technology,5,0.1,4725.0,634.29,Same Day
+ORD-200204,31/05/2025,CUST2350,Home Office,West,Maharashtra,P008,Webcam HD,Technology,1,0.1,880.2,113.74,First Class
+ORD-200205,2025-04-30,CUST1172,Consumer,West,Gujarat,P016,Office Chair,Furniture,2,0.05,2093.8,187.88,Same Day
+ORD-200206,2025-07-05,CUST1364,Consumer,West,Delhi,P003,Gaming Laptop X,Technology,4,0,5596,1341.49,Same Day
+ORD-200207,"Jan 15, 2024",CUST2301,Home Office,West,Delhi,P020,Gel Pen Set,Office Supplies,4,0,28,7.99,Same Day
+ORD-200208,"Dec 19, 2024",CUST1855,Home Office,North,Gujarat,P019,Notebook Pack,Office Supplies,6,0,54,11.3,First Class
+ORD-200209,"Sep 21, 2025",CUST2407,Corporate,South,Delhi,P010,Bluetooth Speaker,Technology,5,0,695,48.75,Second Class
+ORD-200210,"Jan 10, 2024",CUST1127,Corporate,South,Karnataka,P001,Laptop Pro 14,Technology,1,0.2,1000.0,212.09,Same Day
+ORD-200211,27/11/2024,CUST1636,Consumer,North,Delhi,P017,Standing Desk,Furniture,7,0.2,4043.2,216.71,Second Class
+ORD-200212,20/07/2025,CUST2115,Consumer,East,Gujarat,P001,Laptop Pro 14,Technology,9,0.15,9562.5,2740.0,Second Class
+ORD-200213,"Dec 2, 2024",CUST1653,Consumer,West,Gujarat,P019,Notebook Pack,Office Supplies,3,0,27,6.89,Same Day
+ORD-200214,"Dec 3, 2025",CUST2092,Corporate,South,Karnataka,P005,Mechanical Keyboard,Technology,8,0.05,4636.0,387.7,Same Day
+ORD-200215,2024-12-26,CUST1466,Corporate,South,Gujarat,P001,Laptop Pro 14,Technology,9,0.1,10125.0,2974.22,Second Class
+ORD-200216,22/01/2024,CUST1506,Corporate,East,Gujarat,P016,Office Chair,Furniture,9,0,9918,2374.85,First Class
+ORD-200217,"Feb 1, 2025",CUST1788,Corporate,North,Karnataka,P016,Office Chair,Furniture,6,0.15,5620.2,570.51,First Class
+ORD-200218,2024-01-20,CUST1560,Consumer,North,Maharashtra,P010,Bluetooth Speaker,Technology,7,0,973,263.4,First Class
+ORD-200219,"May 9, 2024",CUST1887,Corporate,East,Gujarat,P001,Laptop Pro 14,Technology,10,0.05,11875.0,2049.8,First Class
+ORD-200220,"Jul 1, 2024",CUST2256,Home Office,South,Delhi,P005,Mechanical Keyboard,Technology,3,0.15,1555.5,529.74,Same Day
+ORD-200221,2025-08-12,CUST2170,Consumer,West,Delhi,P020,Gel Pen Set,Office Supplies,4,0.15,23.8,7.16,First Class
+ORD-200222,2025-09-06,CUST2419,Corporate,South,Gujarat,P010,Bluetooth Speaker,Technology,10,0.15,1181.5,384.49,Same Day
+ORD-200223,05/09/2025,CUST2398,Home Office,South,Karnataka,P010,Bluetooth Speaker,Technology,2,0.2,222.4,75.39,Same Day
+ORD-200224,"Feb 22, 2025",CUST2119,Home Office,South,Gujarat,P008,Webcam HD,Technology,2,0.15,1662.6,134.18,First Class
+ORD-200225,"Oct 23, 2024",CUST1238,Home Office,South,Delhi,P020,Gel Pen Set,Office Supplies,8,0.1,50.4,4.85,Same Day
+ORD-200226,2025-07-27,CUST1750,Corporate,West,Tamil Nadu,P017,Standing Desk,Furniture,8,0.2,4620.8,841.29,Standard Class
+ORD-200227,2024-05-02,CUST2264,Consumer,South,Delhi,P005,Mechanical Keyboard,Technology,9,0,5490,1558.46,Second Class
+ORD-200228,"Sep 21, 2025",CUST1643,Consumer,North,Tamil Nadu,P005,Mechanical Keyboard,Technology,1,0,610,141.06,Standard Class
+ORD-200229,06/04/2024,CUST2381,Home Office,West,Karnataka,P008,Webcam HD,Technology,6,0.15,4987.8,466.56,First Class
+ORD-200230,2024-10-17,CUST2433,Home Office,North,Gujarat,P001,Laptop Pro 14,Technology,9,0.15,9562.5,2860.26,First Class
+ORD-200231,2025-01-28,CUST1700,Consumer,North,Tamil Nadu,P002,Laptop Air 13,Technology,5,0.15,4462.5,1441.02,
+ORD-200232,2024-10-07,CUST1387,Consumer,North,Tamil Nadu,P001,Laptop Pro 14,Technology,4,0.2,4000.0,1057.14,First Class
+ORD-200233,2024-09-23,CUST2408,Home Office,West,Tamil Nadu,P019,Notebook Pack,Office Supplies,9,0,81,23.86,Same Day
+ORD-200234,05/12/2024,CUST2188,Home Office,East,Maharashtra,P005,Mechanical Keyboard,Technology,10,0,6100,1380.52,Same Day
+ORD-200235,2024-11-17,CUST1119,Consumer,North,Karnataka,P002,Laptop Air 13,Technology,10,0,10500,1640.64,Second Class
+ORD-200236,"Nov 13, 2025",CUST1022,Home Office,West,Gujarat,P001,Laptop Pro 14,Technology,7,0.2,7000.0,1438.65,First Class
+ORD-200237,25/03/2025,CUST1910,Consumer,North,Karnataka,P019,Notebook Pack,Office Supplies,6,0,54,9.45,Standard Class
+ORD-200238,03/01/2025,CUST1497,Home Office,West,Maharashtra,P020,Gel Pen Set,Office Supplies,6,0.15,35.7,2.3,First Class
+ORD-200239,19/06/2025,CUST1448,Consumer,South,Maharashtra,P008,Webcam HD,Technology,10,0.05,9291.0,2550.38,Same Day
+ORD-200240,"Dec 22, 2025",CUST2341,Corporate,South,Delhi,P017,Standing Desk,Furniture,7,0,5054,333.21,Same Day
+ORD-200241,"Dec 11, 2024",CUST1462,Corporate,West,Gujarat,P005,Mechanical Keyboard,Technology,7,0,4270,261.57,Same Day
+ORD-200242,22/06/2025,CUST1995,Home Office,South,Delhi,P001,Laptop Pro 14,Technology,7,0.2,7000.0,2131.7,
+ORD-200243,01/03/2024,CUST1439,Home Office,South,Maharashtra,P010,Bluetooth Speaker,Technology,10,0,1390,92.4,First Class
+ORD-200244,"Mar 8, 2025",CUST2213,Home Office,North,Delhi,P002,Laptop Air 13,Technology,2,0,2100,391.23,First Class
+ORD-200245,07/05/2024,CUST1639,Consumer,South,Gujarat,P002,Laptop Air 13,Technology,2,0.2,1680.0,208.11,Second Class
+ORD-200246,"Dec 7, 2024",CUST1118,Consumer,East,Tamil Nadu,P019,Notebook Pack,Office Supplies,8,0.15,61.2,16.53,Second Class
+ORD-200247,10/02/2024,,Corporate,East,Gujarat,P020,Gel Pen Set,Office Supplies,9,0.1,56.7,16.9,Standard Class
+ORD-200248,14/10/2024,CUST1317,Corporate,West,Delhi,P010,Bluetooth Speaker,Technology,5,0.2,556.0,126.83,First Class
+ORD-200249,2025-07-28,CUST1325,Consumer,East,Tamil Nadu,P002,Laptop Air 13,Technology,8,0.2,6720.0,1560.73,Second Class
+ORD-200250,2025-09-28,CUST2180,Home Office,East,Gujarat,P005,Mechanical Keyboard,Technology,2,0,1220,219.18,Same Day
+ORD-200251,"Feb 26, 2024",CUST1411,Home Office,West,Karnataka,P003,Gaming Laptop X,Technology,7,0,9793,1937.09,Second Class
+ORD-200252,"Aug 18, 2025",CUST2065,Consumer,North,Karnataka,P005,Mechanical Keyboard,Technology,8,0,4880,1222.57,Same Day
+ORD-200253,04/10/2024,CUST1115,Consumer,East,Tamil Nadu,P016,Office Chair,Furniture,3,0.2,2644.8,701.88,Second Class
+ORD-200254,2024-09-28,CUST2477,Home Office,West,Delhi,P017,Standing Desk,Furniture,9,0,6498,2013.16,Same Day
+ORD-200255,16/09/2024,CUST1667,Consumer,East,Karnataka,P005,Mechanical Keyboard,Technology,2,0.15,1037.0,172.36,First Class
+ORD-200256,20/09/2024,CUST2270,Home Office,South,Karnataka,P002,Laptop Air 13,Technology,4,0,4200,1198.15,Same Day
+ORD-200257,2024-09-28,CUST1640,Corporate,East,Gujarat,P010,Bluetooth Speaker,Technology,10,0,1390,273.03,First Class
+ORD-200258,03/07/2024,CUST1907,Consumer,East,Tamil Nadu,P005,Mechanical Keyboard,Technology,7,0,4270,821.59,First Class
+ORD-200259,2025-09-24,CUST2052,Corporate,West,Delhi,P005,Mechanical Keyboard,Technology,4,0.2,1952.0,372.56,Standard Class
+ORD-200260,"May 6, 2025",CUST2495,Consumer,North,Delhi,P008,Webcam HD,Technology,7,0,6846,622.09,
+ORD-200261,10/10/2025,CUST1915,Home Office,South,Gujarat,P001,Laptop Pro 14,Technology,6,0.05,7125.0,1469.53,Same Day
+ORD-200262,10/07/2024,CUST2345,Consumer,West,Gujarat,P002,Laptop Air 13,Technology,7,0.15,6247.5,336.91,Same Day
+ORD-200263,"Jul 13, 2025",CUST1362,Home Office,South,Delhi,P008,Webcam HD,Technology,1,0,978,50.74,Same Day
+ORD-200264,06/11/2025,CUST2080,Consumer,East,Karnataka,P017,Standing Desk,Furniture,5,0.2,2888.0,704.35,Second Class
+ORD-200265,"Mar 5, 2025",CUST2351,Home Office,East,Karnataka,P003,Gaming Laptop X,Technology,6,0.2,6715.2,2070.85,
+ORD-200266,"Aug 1, 2024",CUST1800,Home Office,North,Tamil Nadu,P008,Webcam HD,Technology,1,0.1,880.2,280.36,Standard Class
+ORD-200267,10/06/2025,CUST1288,Corporate,North,Karnataka,P020,Gel Pen Set,Office Supplies,4,0.1,25.2,6.96,First Class
+ORD-200268,"Mar 2, 2024",CUST1468,Corporate,South,Karnataka,P008,Webcam HD,Technology,3,0.2,2347.2,413.34,Second Class
+ORD-200269,06/01/2025,CUST1501,Corporate,West,Maharashtra,P001,Laptop Pro 14,Technology,9,0,11250,3304.79,Same Day
+ORD-200270,22/05/2025,CUST2305,Consumer,West,Gujarat,P020,Gel Pen Set,Office Supplies,6,0,42,13.35,Same Day
+ORD-200271,28/09/2024,CUST1121,Consumer,West,Tamil Nadu,P019,Notebook Pack,Office Supplies,3,0.1,24.3,3.59,Second Class
+ORD-200272,2024-01-21,CUST2363,Home Office,East,Gujarat,P002,Laptop Air 13,Technology,8,0.1,7560.0,1475.51,Second Class
+ORD-200273,"Jan 12, 2024",CUST1350,Consumer,South,Tamil Nadu,P017,Standing Desk,Furniture,3,0,2166,535.5,First Class
+ORD-200274,2024-01-14,CUST1628,Consumer,West,Gujarat,P017,Standing Desk,Furniture,5,0.1,3249.0,937.15,Second Class
+ORD-200275,22/06/2024,CUST2480,Consumer,West,Karnataka,P010,Bluetooth Speaker,Technology,1,0,139,33.03,Second Class
+ORD-200276,"Jan 15, 2024",CUST1393,Home Office,North,Delhi,P016,Office Chair,Furniture,5,0,5510,922.11,Same Day
+ORD-200277,"Mar 1, 2024",CUST1165,Home Office,North,Delhi,P008,Webcam HD,Technology,7,0,6846,843.11,Standard Class
+ORD-200278,03/08/2024,CUST2411,Corporate,East,Tamil Nadu,P005,Mechanical Keyboard,Technology,7,0.2,3416.0,908.03,Standard Class
+ORD-200279,2025-10-09,CUST1076,Consumer,South,Delhi,P020,Gel Pen Set,Office Supplies,4,0,28,9.75,
+ORD-200280,16/07/2024,CUST1461,Home Office,East,Delhi,P010,Bluetooth Speaker,Technology,10,0,1390,288.96,Same Day
+ORD-200281,09/07/2024,CUST1964,Corporate,West,Gujarat,P016,Office Chair,Furniture,5,0,5510,1684.04,Standard Class
+ORD-200282,2025-05-15,,Consumer,East,Delhi,P020,Gel Pen Set,Office Supplies,2,0.2,11.2,3.88,First Class
+ORD-200283,16/06/2024,CUST1435,Home Office,North,Maharashtra,P020,Gel Pen Set,Office Supplies,8,0.15,47.6,9.03,Same Day
+ORD-200284,28/06/2025,CUST2185,Consumer,West,Delhi,P020,Gel Pen Set,Office Supplies,5,0.15,29.75,2.58,Second Class
+ORD-200285,"Jan 28, 2025",,Corporate,East,Karnataka,P001,Laptop Pro 14,Technology,6,0,7500,1834.66,Second Class
+ORD-200286,17/03/2025,CUST1811,Consumer,North,Gujarat,P020,Gel Pen Set,Office Supplies,5,0.05,33.25,3.22,Second Class
+ORD-200287,01/06/2024,CUST1276,Home Office,South,Tamil Nadu,P019,Notebook Pack,Office Supplies,6,0,54,9.1,Standard Class
+ORD-200288,2024-06-02,CUST1017,Home Office,East,Gujarat,P005,Mechanical Keyboard,Technology,7,0,4270,426.11,Second Class
+ORD-200289,06/11/2025,CUST2436,Home Office,East,Maharashtra,P003,Gaming Laptop X,Technology,6,0.2,6715.2,1403.48,Standard Class
+ORD-200290,07/11/2025,CUST1508,Corporate,East,Gujarat,P005,Mechanical Keyboard,Technology,5,0,3050,313.53,First Class
+ORD-200291,"Dec 29, 2025",CUST1959,Consumer,West,Delhi,P003,Gaming Laptop X,Technology,7,0,9793,2508.44,Second Class
+ORD-200292,2024-10-19,CUST1084,Corporate,East,Tamil Nadu,P016,Office Chair,Furniture,3,0,3306,442.65,Standard Class
+ORD-200293,2024-10-29,CUST1289,Home Office,South,Gujarat,P020,Gel Pen Set,Office Supplies,3,0.05,19.95,4.9,Standard Class
+ORD-200294,29/11/2024,CUST2014,Corporate,East,Tamil Nadu,P005,Mechanical Keyboard,Technology,10,0.05,5795.0,1255.15,First Class
+ORD-200295,26/10/2024,CUST1610,Corporate,North,Gujarat,P003,Gaming Laptop X,Technology,5,0.1,6295.5,1090.37,Standard Class
+ORD-200296,2025-03-06,CUST1402,Consumer,East,Maharashtra,P001,Laptop Pro 14,Technology,7,0,8750,522.0,
+ORD-200297,05/11/2024,CUST1138,Corporate,South,Gujarat,P001,Laptop Pro 14,Technology,6,0,7500,856.75,Standard Class
+ORD-200298,20/01/2025,CUST1197,Consumer,East,Gujarat,P010,Bluetooth Speaker,Technology,9,0.2,1000.8,140.0,First Class
+ORD-200299,16/05/2025,CUST1620,Corporate,East,Karnataka,P005,Mechanical Keyboard,Technology,1,0.05,579.5,186.16,Same Day
+ORD-200300,2024-11-11,CUST1423,Consumer,West,Tamil Nadu,P010,Bluetooth Speaker,Technology,4,0.15,472.6,42.32,Same Day
+ORD-200301,2024-04-04,,Home Office,East,Gujarat,P020,Gel Pen Set,Office Supplies,5,0.05,33.25,4.45,Standard Class
+ORD-200302,"Jan 24, 2025",CUST1299,Consumer,North,Karnataka,P002,Laptop Air 13,Technology,9,0,9450,1122.45,Standard Class
+ORD-200303,2024-01-28,CUST1176,Consumer,East,Karnataka,P020,Gel Pen Set,Office Supplies,8,0.1,50.4,7.81,Same Day
+ORD-200304,"May 21, 2025",CUST2178,Home Office,South,Gujarat,P005,Mechanical Keyboard,Technology,5,0.05,2897.5,524.44,Same Day
+ORD-200305,2025-11-10,CUST1518,Consumer,West,Karnataka,P005,Mechanical Keyboard,Technology,6,0,3660,483.0,Same Day
+ORD-200306,2024-11-20,CUST1511,Home Office,South,Delhi,P020,Gel Pen Set,Office Supplies,1,0,7,0.91,Second Class
+ORD-200307,"Oct 25, 2025",CUST1336,Home Office,South,Karnataka,P016,Office Chair,Furniture,6,0.2,5289.6,1129.77,Same Day
+ORD-200308,"Nov 6, 2025",CUST2350,Home Office,East,Maharashtra,P005,Mechanical Keyboard,Technology,3,0,1830,163.56,First Class
+ORD-200309,"Oct 18, 2025",CUST1567,Home Office,South,Karnataka,P010,Bluetooth Speaker,Technology,6,0.05,792.3,137.19,Same Day
+ORD-200310,21/09/2024,CUST1216,Consumer,East,Gujarat,P003,Gaming Laptop X,Technology,2,0.2,2238.4,365.97,Standard Class
+ORD-200311,21/02/2024,CUST1284,Consumer,South,Tamil Nadu,P003,Gaming Laptop X,Technology,6,0.05,7974.3,2548.62,Same Day
+ORD-200312,2024-09-19,CUST1006,Home Office,South,Tamil Nadu,P008,Webcam HD,Technology,10,0.15,8313.0,735.39,Second Class
+ORD-200313,"Jan 14, 2024",CUST1083,Home Office,West,Karnataka,P019,Notebook Pack,Office Supplies,7,0,63,17.97,Same Day
+ORD-200314,2025-01-14,CUST1205,Consumer,North,Tamil Nadu,P017,Standing Desk,Furniture,2,0,1444,486.49,Same Day
+ORD-200315,2024-11-21,CUST1388,Home Office,East,Karnataka,P008,Webcam HD,Technology,3,0.15,2493.9,230.63,Standard Class
+ORD-200316,"Oct 11, 2025",CUST1363,Corporate,South,Maharashtra,P010,Bluetooth Speaker,Technology,4,0.2,444.8,37.38,
+ORD-200317,"Jun 14, 2024",CUST1738,Home Office,South,Gujarat,P008,Webcam HD,Technology,2,0,1956,557.42,Standard Class
+ORD-200318,01/06/2025,CUST2013,Consumer,South,Tamil Nadu,P008,Webcam HD,Technology,1,0,978,110.69,
+ORD-200319,"Jul 24, 2025",CUST1337,Consumer,East,Gujarat,P010,Bluetooth Speaker,Technology,4,0.1,500.4,119.34,Same Day
+ORD-200320,20/07/2025,CUST1826,Corporate,West,Gujarat,P003,Gaming Laptop X,Technology,6,0,8394,1750.82,Standard Class
+ORD-200321,08/05/2024,CUST2001,Consumer,North,Maharashtra,P019,Notebook Pack,Office Supplies,1,0.15,7.65,0.4,First Class
+ORD-200322,05/04/2024,CUST1689,Home Office,South,Tamil Nadu,P010,Bluetooth Speaker,Technology,6,0.05,792.3,246.15,Second Class
+ORD-200323,"Aug 27, 2025",CUST1818,Consumer,South,Maharashtra,P001,Laptop Pro 14,Technology,3,0.15,3187.5,763.36,Same Day
+ORD-200324,09/11/2025,CUST1110,Consumer,East,Gujarat,P020,Gel Pen Set,Office Supplies,5,0,35,10.16,Same Day
+ORD-200325,31/03/2025,CUST1655,Home Office,North,Maharashtra,P017,Standing Desk,Furniture,1,0.1,649.8,146.33,Second Class
+ORD-200326,2024-06-23,CUST2354,Consumer,South,Karnataka,P005,Mechanical Keyboard,Technology,7,0.1,3843.0,1253.48,Same Day
+ORD-200327,2025-06-06,CUST1162,Consumer,West,Delhi,P008,Webcam HD,Technology,2,0,1956,459.18,Standard Class
+ORD-200328,06/08/2025,CUST2243,Home Office,South,Karnataka,P017,Standing Desk,Furniture,3,0,2166,535.04,Second Class
+ORD-200329,"Dec 25, 2024",CUST1523,Corporate,North,Karnataka,P020,Gel Pen Set,Office Supplies,7,0,49,14.92,First Class
+ORD-200330,22/10/2025,CUST1725,Consumer,West,Karnataka,P019,Notebook Pack,Office Supplies,4,0,36,7.66,Standard Class
+ORD-200331,2025-11-01,CUST1424,Home Office,East,Delhi,P010,Bluetooth Speaker,Technology,9,0.05,1188.45,394.49,First Class
+ORD-200332,"Sep 2, 2025",CUST1682,Consumer,East,Karnataka,P017,Standing Desk,Furniture,5,0.05,3429.5,948.54,Same Day
+ORD-200333,23/01/2025,CUST1285,Consumer,East,Gujarat,P001,Laptop Pro 14,Technology,5,0,6250,1066.32,Second Class
+ORD-200334,"Dec 29, 2024",CUST1141,Home Office,East,Gujarat,P002,Laptop Air 13,Technology,8,0,8400,1787.37,Second Class
+ORD-200335,2024-01-03,CUST1745,Consumer,East,Delhi,P019,Notebook Pack,Office Supplies,4,0,36,11.89,Second Class
+ORD-200336,"Dec 12, 2025",CUST1790,Home Office,South,Gujarat,P002,Laptop Air 13,Technology,5,0.2,4200.0,929.04,First Class
+ORD-200337,13/02/2025,CUST1321,Home Office,East,Maharashtra,P003,Gaming Laptop X,Technology,8,0,11192,3187.5,First Class
+ORD-200338,26/05/2024,CUST1896,Consumer,South,Tamil Nadu,P003,Gaming Laptop X,Technology,2,0.2,2238.4,223.23,First Class
+ORD-200339,"Jul 28, 2024",CUST2198,Home Office,East,Tamil Nadu,P019,Notebook Pack,Office Supplies,4,0,36,12.45,Standard Class
+ORD-200340,"Aug 8, 2025",CUST1215,Corporate,South,Maharashtra,P001,Laptop Pro 14,Technology,4,0.15,4250.0,740.22,Second Class
+ORD-200341,29/12/2025,CUST1059,Consumer,South,Maharashtra,P008,Webcam HD,Technology,3,0,2934,524.45,Same Day
+ORD-200342,26/06/2025,CUST1949,Corporate,West,Delhi,P019,Notebook Pack,Office Supplies,2,0,18,5.86,Standard Class
+ORD-200343,01/06/2024,,Consumer,South,Tamil Nadu,P003,Gaming Laptop X,Technology,5,0,6995,2411.88,Second Class
+ORD-200344,2024-04-22,CUST1749,Consumer,East,Gujarat,P010,Bluetooth Speaker,Technology,9,0,1251,288.91,Second Class
+ORD-200345,2025-02-25,CUST1172,Corporate,East,Karnataka,P003,Gaming Laptop X,Technology,8,0.15,9513.2,2578.28,Second Class
+ORD-200346,2025-07-29,,Home Office,East,Delhi,P005,Mechanical Keyboard,Technology,7,0.2,3416.0,394.06,Standard Class
+ORD-200347,2024-12-19,CUST1268,Corporate,South,Maharashtra,P008,Webcam HD,Technology,1,0.2,782.4,189.19,Standard Class
+ORD-200348,"Sep 28, 2024",,Corporate,West,Karnataka,P016,Office Chair,Furniture,10,0.1,9918.0,2088.87,First Class
+ORD-200349,"Jul 7, 2025",CUST2425,Consumer,South,Karnataka,P003,Gaming Laptop X,Technology,7,0,9793,2695.62,First Class
+ORD-200350,2025-12-04,,Consumer,East,Gujarat,P019,Notebook Pack,Office Supplies,4,0,36,8.9,First Class
+ORD-200351,30/03/2025,CUST1705,Home Office,East,Maharashtra,P019,Notebook Pack,Office Supplies,2,0,18,3.68,Second Class
+ORD-200352,23/05/2024,CUST1374,Home Office,South,Gujarat,P019,Notebook Pack,Office Supplies,5,0,45,7.11,First Class
+ORD-200353,2025-03-26,CUST2366,Consumer,East,Karnataka,P003,Gaming Laptop X,Technology,3,0,4197,470.31,Same Day
+ORD-200354,16/08/2024,CUST1586,Consumer,East,Karnataka,P002,Laptop Air 13,Technology,1,0,1050,124.55,Second Class
+ORD-200355,21/11/2025,CUST2352,Home Office,North,Tamil Nadu,P005,Mechanical Keyboard,Technology,2,0.1,1098.0,171.67,First Class
+ORD-200356,20/08/2025,CUST2281,Corporate,South,Gujarat,P016,Office Chair,Furniture,3,0,3306,1045.22,Standard Class
+ORD-200357,"Apr 11, 2025",CUST2228,Consumer,South,Gujarat,P016,Office Chair,Furniture,8,0,8816,2636.45,Standard Class
+ORD-200358,13/07/2025,CUST1500,Home Office,East,Tamil Nadu,P010,Bluetooth Speaker,Technology,3,0,417,133.52,Standard Class
+ORD-200359,24/05/2024,CUST1835,Corporate,West,Karnataka,P005,Mechanical Keyboard,Technology,5,0,3050,939.73,First Class
+ORD-200360,2025-01-07,CUST1968,Consumer,South,Maharashtra,P008,Webcam HD,Technology,3,0.15,2493.9,856.65,Same Day
+ORD-200361,"Nov 11, 2024",CUST1421,Home Office,West,Tamil Nadu,P010,Bluetooth Speaker,Technology,10,0,1390,297.25,Standard Class
+ORD-200362,2024-12-30,CUST1743,Corporate,West,Karnataka,P017,Standing Desk,Furniture,2,0.1,1299.6,426.5,Standard Class
+ORD-200363,10/10/2024,CUST1511,Consumer,South,Delhi,P003,Gaming Laptop X,Technology,6,0.05,7974.3,1148.78,Standard Class
+ORD-200364,11/06/2025,CUST1394,Consumer,South,Maharashtra,P017,Standing Desk,Furniture,8,0,5776,538.72,First Class
+ORD-200365,08/11/2024,CUST1731,Consumer,North,Tamil Nadu,P010,Bluetooth Speaker,Technology,5,0,695,199.39,First Class
+ORD-200366,2024-10-21,CUST2353,Home Office,North,Karnataka,P003,Gaming Laptop X,Technology,6,0,8394,2660.27,Standard Class
+ORD-200367,18/07/2024,CUST1940,Corporate,East,Tamil Nadu,P003,Gaming Laptop X,Technology,9,0.15,10702.35,3229.83,First Class
+ORD-200368,2024-02-10,CUST2159,Home Office,North,Gujarat,P019,Notebook Pack,Office Supplies,7,0.2,50.4,17.43,First Class
+ORD-200369,14/03/2025,CUST1504,Corporate,West,Karnataka,P001,Laptop Pro 14,Technology,3,0,3750,1292.15,Second Class
+ORD-200370,2025-10-14,CUST2441,Corporate,East,Tamil Nadu,P016,Office Chair,Furniture,5,0.2,4408.0,1098.26,Same Day
+ORD-200371,2025-08-22,CUST1638,Home Office,North,Karnataka,P019,Notebook Pack,Office Supplies,2,0.15,15.3,4.8,First Class
+ORD-200372,25/08/2024,CUST1774,Consumer,East,Tamil Nadu,P001,Laptop Pro 14,Technology,1,0,1250,319.88,First Class
+ORD-200373,05/06/2024,CUST2201,Consumer,South,Karnataka,P001,Laptop Pro 14,Technology,7,0.15,7437.5,1418.25,Second Class
+ORD-200374,2024-10-13,CUST1297,Home Office,West,Karnataka,P020,Gel Pen Set,Office Supplies,2,0.1,12.6,3.56,Standard Class
+ORD-200375,"Mar 21, 2025",CUST2296,Corporate,East,Gujarat,P008,Webcam HD,Technology,7,0,6846,682.44,Standard Class
+ORD-200376,"Jan 4, 2024",CUST1155,Home Office,East,Gujarat,P020,Gel Pen Set,Office Supplies,10,0,70,16.92,Same Day
+ORD-200377,"Mar 12, 2025",CUST2239,Home Office,South,Maharashtra,P001,Laptop Pro 14,Technology,6,0.1,6750.0,796.68,Second Class
+ORD-200378,24/10/2025,CUST1966,Consumer,West,Maharashtra,P020,Gel Pen Set,Office Supplies,2,0.15,11.9,3.96,Second Class
+ORD-200379,2024-02-06,CUST1973,Home Office,North,Maharashtra,P008,Webcam HD,Technology,10,0,9780,1097.54,Standard Class
+ORD-200380,11/05/2025,CUST2042,Corporate,North,Delhi,P008,Webcam HD,Technology,7,0.2,5476.8,653.29,Second Class
+ORD-200381,2024-04-12,CUST1451,Consumer,South,Maharashtra,P001,Laptop Pro 14,Technology,6,0,7500,1510.84,Same Day
+ORD-200382,"Apr 23, 2025",CUST1923,Corporate,West,Maharashtra,P020,Gel Pen Set,Office Supplies,5,0.1,31.5,6.01,First Class
+ORD-200383,"Nov 8, 2024",CUST2004,Consumer,East,Karnataka,P017,Standing Desk,Furniture,9,0,6498,879.58,First Class
+ORD-200384,10/08/2025,CUST1568,Corporate,South,Maharashtra,P002,Laptop Air 13,Technology,1,0,1050,110.26,Second Class
+ORD-200385,23/12/2024,CUST2255,Home Office,North,Tamil Nadu,P003,Gaming Laptop X,Technology,7,0.2,7834.4,448.16,First Class
+ORD-200386,09/01/2024,CUST1184,Corporate,South,Maharashtra,P002,Laptop Air 13,Technology,7,0,7350,2186.13,First Class
+ORD-200387,2024-01-09,CUST2054,Home Office,North,Tamil Nadu,P008,Webcam HD,Technology,7,0,6846,1224.61,Standard Class
+ORD-200388,2024-07-13,CUST1870,Consumer,East,Delhi,P001,Laptop Pro 14,Technology,8,0.1,9000.0,1859.33,Same Day
+ORD-200389,"Dec 20, 2025",CUST1324,Home Office,South,Delhi,P010,Bluetooth Speaker,Technology,2,0.15,236.3,39.11,Same Day
+ORD-200390,23/10/2024,CUST1174,Home Office,South,Gujarat,P002,Laptop Air 13,Technology,6,0,6300,918.26,Same Day
+ORD-200391,"May 2, 2024",CUST1824,Home Office,West,Tamil Nadu,P017,Standing Desk,Furniture,10,0.2,5776.0,606.99,First Class
+ORD-200392,09/07/2025,CUST1478,Home Office,North,Gujarat,P003,Gaming Laptop X,Technology,4,0.2,4476.8,946.84,Same Day
+ORD-200393,"Oct 9, 2025",CUST2171,Corporate,South,Maharashtra,P005,Mechanical Keyboard,Technology,2,0,1220,378.02,First Class
+ORD-200394,"Aug 26, 2024",CUST1420,Home Office,East,Delhi,P003,Gaming Laptop X,Technology,8,0.15,9513.2,3098.68,Second Class
+ORD-200395,"Mar 29, 2025",CUST2069,Consumer,South,Delhi,P008,Webcam HD,Technology,2,0,1956,368.03,First Class
+ORD-200396,2024-07-12,CUST2366,Home Office,North,Tamil Nadu,P008,Webcam HD,Technology,9,0.15,7481.7,2279.19,Standard Class
+ORD-200397,2024-10-11,CUST2418,Consumer,North,Delhi,P016,Office Chair,Furniture,10,0.2,8816.0,1068.33,Same Day
+ORD-200398,"Jul 15, 2025",CUST2392,Consumer,East,Delhi,P001,Laptop Pro 14,Technology,6,0,7500,1745.16,Same Day
+ORD-200399,2025-04-29,CUST1675,Home Office,South,Delhi,P020,Gel Pen Set,Office Supplies,9,0.15,53.55,12.81,Same Day
+ORD-200400,2024-11-22,CUST1595,Consumer,North,Delhi,P003,Gaming Laptop X,Technology,2,0.2,2238.4,251.67,First Class
+ORD-200401,31/07/2025,CUST1526,Corporate,East,Maharashtra,P020,Gel Pen Set,Office Supplies,9,0.15,53.55,17.31,Second Class
+ORD-200402,2025-02-12,CUST1287,Consumer,North,Maharashtra,P020,Gel Pen Set,Office Supplies,8,0.15,47.6,12.07,Standard Class
+ORD-200403,05/02/2024,CUST1362,Corporate,West,Tamil Nadu,P016,Office Chair,Furniture,5,0.05,5234.5,330.73,Standard Class
+ORD-200404,10/01/2025,CUST1425,Consumer,North,Delhi,P008,Webcam HD,Technology,6,0,5868,680.92,Second Class
+ORD-200405,30/06/2024,CUST1562,Consumer,South,Delhi,P001,Laptop Pro 14,Technology,6,0.05,7125.0,434.66,Same Day
+ORD-200406,2024-08-06,CUST1005,Consumer,East,Delhi,P017,Standing Desk,Furniture,8,0.15,4909.6,1286.53,Second Class
+ORD-200407,15/05/2024,CUST1761,Consumer,South,Karnataka,P008,Webcam HD,Technology,7,0.05,6503.7,1917.99,First Class
+ORD-200408,"Dec 24, 2025",CUST1124,Home Office,East,Karnataka,P017,Standing Desk,Furniture,6,0.15,3682.2,449.42,First Class
+ORD-200409,23/02/2025,CUST1404,Corporate,West,Gujarat,P005,Mechanical Keyboard,Technology,1,0,610,196.51,First Class
+ORD-200410,"Jul 13, 2024",CUST2286,Consumer,West,Maharashtra,P001,Laptop Pro 14,Technology,6,0.05,7125.0,1135.87,Second Class
+ORD-200411,"Nov 21, 2024",CUST2381,Consumer,East,Karnataka,P016,Office Chair,Furniture,1,0,1102,305.32,Second Class
+ORD-200412,15/06/2024,CUST1931,Home Office,South,Delhi,P003,Gaming Laptop X,Technology,1,0.05,1329.05,162.83,Same Day
+ORD-200413,"Jan 13, 2024",CUST1942,Corporate,North,Tamil Nadu,P020,Gel Pen Set,Office Supplies,5,0.2,28.0,2.54,Standard Class
+ORD-200414,2024-04-03,CUST1658,Corporate,East,Karnataka,P002,Laptop Air 13,Technology,7,0,7350,722.74,Standard Class
+ORD-200415,14/08/2024,CUST2078,Consumer,West,Karnataka,P016,Office Chair,Furniture,8,0.2,7052.8,817.65,First Class
+ORD-200416,2024-04-21,CUST2416,Home Office,East,Delhi,P005,Mechanical Keyboard,Technology,3,0.05,1738.5,93.58,Same Day
+ORD-200417,09/02/2025,CUST1260,Corporate,West,Delhi,P010,Bluetooth Speaker,Technology,3,0,417,23.42,Same Day
+ORD-200418,"Feb 2, 2025",CUST2042,Home Office,North,Delhi,P017,Standing Desk,Furniture,10,0.05,6859.0,2381.68,Second Class
+ORD-200419,2025-01-23,CUST1655,Consumer,South,Delhi,P010,Bluetooth Speaker,Technology,4,0.15,472.6,119.61,Standard Class
+ORD-200420,11/04/2025,CUST2228,Corporate,South,Tamil Nadu,P008,Webcam HD,Technology,2,0.1,1760.4,589.28,Second Class
+ORD-200421,"Jul 18, 2025",CUST2392,Corporate,North,Tamil Nadu,P020,Gel Pen Set,Office Supplies,7,0.05,46.55,7.37,First Class
+ORD-200422,04/08/2025,CUST1939,Corporate,West,Maharashtra,P001,Laptop Pro 14,Technology,8,0,10000,565.75,Same Day
+ORD-200423,2025-11-20,CUST1055,Consumer,South,Karnataka,P020,Gel Pen Set,Office Supplies,1,0.05,6.65,2.26,Second Class
+ORD-200424,2025-04-29,CUST2231,Home Office,South,Karnataka,P019,Notebook Pack,Office Supplies,4,0.05,34.2,6.38,Second Class
+ORD-200425,"Jun 29, 2024",CUST1568,Corporate,South,Delhi,P008,Webcam HD,Technology,5,0,4890,1626.94,Same Day
+ORD-200426,2025-10-24,CUST2121,Home Office,West,Gujarat,P019,Notebook Pack,Office Supplies,7,0,63,7.39,Second Class
+ORD-200427,2024-09-20,CUST1136,Corporate,East,Tamil Nadu,P020,Gel Pen Set,Office Supplies,5,0.15,29.75,2.28,Same Day
+ORD-200428,17/01/2025,CUST2018,Home Office,East,Delhi,P002,Laptop Air 13,Technology,4,0.15,3570.0,692.25,First Class
+ORD-200429,2024-11-21,CUST1973,Consumer,North,Maharashtra,P001,Laptop Pro 14,Technology,10,0.05,11875.0,1421.9,Same Day
+ORD-200430,"Apr 28, 2025",CUST2115,Home Office,South,Maharashtra,P008,Webcam HD,Technology,3,0,2934,682.41,Second Class
+ORD-200431,"Aug 16, 2024",CUST1183,Consumer,West,Delhi,P002,Laptop Air 13,Technology,10,0.15,8925.0,2406.68,Standard Class
+ORD-200432,"Oct 23, 2024",CUST1032,Consumer,West,Tamil Nadu,P017,Standing Desk,Furniture,5,0.05,3429.5,371.38,Second Class
+ORD-200433,20/03/2024,CUST2215,Consumer,South,Tamil Nadu,P001,Laptop Pro 14,Technology,4,0.2,4000.0,337.0,First Class
+ORD-200434,07/10/2025,CUST1371,Corporate,North,Maharashtra,P010,Bluetooth Speaker,Technology,6,0.2,667.2,96.54,Standard Class
+ORD-200435,"Nov 19, 2024",CUST2002,Consumer,South,Karnataka,P019,Notebook Pack,Office Supplies,1,0,9,1.9,Same Day
+ORD-200436,2024-03-21,,Consumer,South,Delhi,P005,Mechanical Keyboard,Technology,10,0.15,5185.0,1120.93,Same Day
+ORD-200437,"Feb 26, 2024",CUST1466,Home Office,South,Delhi,P020,Gel Pen Set,Office Supplies,3,0,21,6.21,Standard Class
+ORD-200438,15/05/2025,CUST1838,Corporate,East,Gujarat,P020,Gel Pen Set,Office Supplies,2,0.15,11.9,3.96,Same Day
+ORD-200439,01/12/2024,CUST2094,Home Office,West,Tamil Nadu,P008,Webcam HD,Technology,10,0.05,9291.0,2883.58,Second Class
+ORD-200440,"Feb 9, 2025",CUST2188,Home Office,West,Tamil Nadu,P016,Office Chair,Furniture,7,0,7714,1937.34,Standard Class
+ORD-200441,"Nov 30, 2025",CUST1774,Corporate,East,Karnataka,P001,Laptop Pro 14,Technology,4,0,5000,1660.35,Same Day
+ORD-200442,19/02/2024,CUST1732,Corporate,South,Maharashtra,P002,Laptop Air 13,Technology,7,0.1,6615.0,2312.26,Standard Class
+ORD-200443,19/01/2025,CUST1880,Corporate,West,Maharashtra,P019,Notebook Pack,Office Supplies,6,0.05,51.3,6.32,Same Day
+ORD-200444,2024-10-03,CUST2157,Corporate,North,Gujarat,P017,Standing Desk,Furniture,1,0,722,206.57,First Class
+ORD-200445,2025-05-12,CUST1599,Home Office,East,Tamil Nadu,P001,Laptop Pro 14,Technology,10,0.05,11875.0,654.65,Standard Class
+ORD-200446,20/02/2024,CUST1805,Corporate,West,Maharashtra,P019,Notebook Pack,Office Supplies,5,0,45,7.68,Same Day
+ORD-200447,2025-03-25,CUST2230,Corporate,East,Delhi,P020,Gel Pen Set,Office Supplies,2,0,14,4.47,Same Day
+ORD-200448,2024-08-08,CUST1928,Corporate,East,Gujarat,P008,Webcam HD,Technology,7,0.2,5476.8,425.68,Same Day
+ORD-200449,09/10/2024,CUST2459,Corporate,East,Gujarat,P016,Office Chair,Furniture,10,0,11020,1144.72,Standard Class
+ORD-200450,"Oct 9, 2025",CUST1244,Corporate,North,Delhi,P010,Bluetooth Speaker,Technology,4,0,556,146.3,First Class
+ORD-200451,25/11/2024,,Home Office,East,Karnataka,P005,Mechanical Keyboard,Technology,3,0.05,1738.5,214.81,Same Day
+ORD-200452,2025-03-12,CUST2064,Corporate,West,Maharashtra,P002,Laptop Air 13,Technology,8,0,8400,829.33,First Class
+ORD-200453,2025-01-24,CUST2168,Home Office,North,Gujarat,P003,Gaming Laptop X,Technology,2,0.05,2658.1,298.41,Standard Class
+ORD-200454,10/04/2025,CUST2416,Home Office,South,Maharashtra,P001,Laptop Pro 14,Technology,8,0.1,9000.0,818.96,First Class
+ORD-200455,23/11/2024,CUST1046,Home Office,East,Karnataka,P002,Laptop Air 13,Technology,5,0.2,4200.0,283.69,First Class
+ORD-200456,"Jun 12, 2025",CUST2423,Consumer,South,Tamil Nadu,P008,Webcam HD,Technology,9,0,8802,1298.57,First Class
+ORD-200457,21/04/2025,CUST1987,Home Office,South,Tamil Nadu,P017,Standing Desk,Furniture,5,0,3610,1252.49,First Class
+ORD-200458,2025-08-04,CUST1152,Corporate,East,Delhi,P001,Laptop Pro 14,Technology,8,0.15,8500.0,468.03,Standard Class
+ORD-200459,10/07/2024,CUST2200,Home Office,North,Karnataka,P019,Notebook Pack,Office Supplies,3,0.15,22.95,3.87,Same Day
+ORD-200460,"Dec 3, 2024",CUST1918,Consumer,East,Gujarat,P001,Laptop Pro 14,Technology,5,0.2,5000.0,1004.76,First Class
+ORD-200461,"Jun 9, 2024",CUST2259,Home Office,East,Gujarat,P002,Laptop Air 13,Technology,7,0,7350,2203.65,Standard Class
+ORD-200462,"Jun 8, 2025",CUST2216,Consumer,North,Maharashtra,P005,Mechanical Keyboard,Technology,9,0,5490,425.31,Standard Class
+ORD-200463,05/08/2024,CUST2171,Corporate,West,Maharashtra,P002,Laptop Air 13,Technology,10,0,10500,2676.61,Second Class
+ORD-200464,"Oct 1, 2025",CUST2470,Consumer,West,Karnataka,P016,Office Chair,Furniture,5,0.2,4408.0,421.16,Same Day
+ORD-200465,22/12/2024,CUST1278,Home Office,West,Maharashtra,P002,Laptop Air 13,Technology,1,0.05,997.5,349.03,First Class
+ORD-200466,26/09/2025,CUST2484,Home Office,West,Karnataka,P002,Laptop Air 13,Technology,10,0.15,8925.0,2327.8,Standard Class
+ORD-200467,29/06/2024,CUST1354,Corporate,West,Delhi,P017,Standing Desk,Furniture,9,0.15,5523.3,1621.89,Standard Class
+ORD-200468,07/02/2024,CUST1873,Consumer,South,Gujarat,P016,Office Chair,Furniture,2,0.2,1763.2,510.65,Standard Class
+ORD-200469,2024-11-30,CUST1808,Consumer,East,Tamil Nadu,P008,Webcam HD,Technology,2,0.15,1662.6,419.86,Standard Class
+ORD-200470,"Apr 13, 2025",CUST2378,Home Office,North,Delhi,P017,Standing Desk,Furniture,1,0,722,234.31,First Class
+ORD-200471,02/07/2024,CUST1515,Home Office,East,Gujarat,P010,Bluetooth Speaker,Technology,8,0.1,1000.8,209.9,First Class
+ORD-200472,11/10/2025,CUST1531,Corporate,North,Karnataka,P003,Gaming Laptop X,Technology,9,0,12591,2235.14,Second Class
+ORD-200473,13/08/2024,CUST1486,Home Office,North,Maharashtra,P003,Gaming Laptop X,Technology,2,0.2,2238.4,634.09,Second Class
+ORD-200474,02/02/2025,CUST1991,Consumer,North,Karnataka,P019,Notebook Pack,Office Supplies,5,0.15,38.25,1.95,Same Day
+ORD-200475,2024-01-15,CUST1885,Consumer,South,Maharashtra,P019,Notebook Pack,Office Supplies,10,0,90,30.33,Second Class
+ORD-200476,"Dec 2, 2025",CUST2106,Corporate,East,Tamil Nadu,P003,Gaming Laptop X,Technology,4,0,5596,473.43,Second Class
+ORD-200477,10/02/2025,CUST1821,Consumer,East,Karnataka,P005,Mechanical Keyboard,Technology,3,0.05,1738.5,530.83,First Class
+ORD-200478,24/08/2025,CUST1849,Consumer,West,Gujarat,P010,Bluetooth Speaker,Technology,9,0.05,1188.45,244.21,First Class
+ORD-200479,22/10/2025,CUST1419,Consumer,West,Delhi,P016,Office Chair,Furniture,6,0.1,5950.8,887.0,Same Day
+ORD-200480,13/03/2024,CUST1406,Corporate,South,Karnataka,P016,Office Chair,Furniture,9,0.2,7934.4,2171.66,First Class
+ORD-200481,"May 26, 2025",CUST1762,Corporate,North,Karnataka,P008,Webcam HD,Technology,6,0,5868,1510.14,Standard Class
+ORD-200482,"Jun 7, 2025",CUST2302,Corporate,East,Gujarat,P019,Notebook Pack,Office Supplies,1,0,9,2.38,Second Class
+ORD-200483,2025-03-12,CUST2382,Consumer,North,Gujarat,P010,Bluetooth Speaker,Technology,6,0.05,792.3,177.42,
+ORD-200484,"Mar 5, 2025",CUST1504,Corporate,West,Tamil Nadu,P002,Laptop Air 13,Technology,8,0.15,7140.0,1081.17,Same Day
+ORD-200485,12/04/2024,CUST2167,Consumer,North,Karnataka,P020,Gel Pen Set,Office Supplies,9,0.2,50.4,11.33,Second Class
+ORD-200486,2025-05-12,CUST1780,Consumer,West,Gujarat,P005,Mechanical Keyboard,Technology,7,0.2,3416.0,566.75,Same Day
+ORD-200487,07/03/2024,CUST2024,Home Office,East,Gujarat,P010,Bluetooth Speaker,Technology,8,0.1,1000.8,131.54,Second Class
+ORD-200488,2025-06-22,CUST2327,Corporate,North,Delhi,P008,Webcam HD,Technology,4,0,3912,997.78,Standard Class
+ORD-200489,2024-05-20,CUST1348,Consumer,West,Delhi,P003,Gaming Laptop X,Technology,6,0.15,7134.9,495.46,Second Class
+ORD-200490,"Dec 28, 2024",CUST2463,Consumer,North,Delhi,P002,Laptop Air 13,Technology,8,0,8400,2274.74,Standard Class
+ORD-200491,"Jun 9, 2025",CUST1112,Consumer,South,Maharashtra,P005,Mechanical Keyboard,Technology,3,0,1830,183.19,First Class
+ORD-200492,2024-02-06,CUST1171,Consumer,South,Tamil Nadu,P008,Webcam HD,Technology,4,0.1,3520.8,977.44,Standard Class
+ORD-200493,"Nov 21, 2024",,Home Office,South,Karnataka,P019,Notebook Pack,Office Supplies,4,0,36,6.23,Second Class
+ORD-200494,2024-06-22,CUST1810,Home Office,South,Maharashtra,P016,Office Chair,Furniture,3,0.2,2644.8,252.6,Second Class
+ORD-200495,2025-12-11,CUST1082,Corporate,West,Gujarat,P008,Webcam HD,Technology,2,0.1,1760.4,314.4,First Class
+ORD-200496,2025-10-08,CUST1989,Home Office,West,Tamil Nadu,P001,Laptop Pro 14,Technology,8,0.1,9000.0,2896.14,First Class
+ORD-200497,"Mar 6, 2025",CUST2157,Consumer,North,Gujarat,P002,Laptop Air 13,Technology,10,0,10500,3008.38,Second Class
+ORD-200498,02/08/2024,CUST1156,Home Office,South,Gujarat,P020,Gel Pen Set,Office Supplies,10,0.1,63.0,16.61,First Class
+ORD-200499,"Jul 28, 2025",CUST1550,Home Office,North,Karnataka,P017,Standing Desk,Furniture,5,0.15,3068.5,364.05,Standard Class
+ORD-200500,2024-12-14,CUST1738,Home Office,North,Gujarat,P001,Laptop Pro 14,Technology,10,0,12500,2082.83,First Class
+ORD-200501,2024-08-24,CUST1949,Home Office,West,Delhi,P001,Laptop Pro 14,Technology,2,0.05,2375.0,503.18,First Class
+ORD-200502,12/07/2024,CUST2394,Corporate,West,Delhi,P020,Gel Pen Set,Office Supplies,2,0,14,1.81,Second Class
+ORD-200503,22/10/2025,CUST1900,Home Office,East,Gujarat,P017,Standing Desk,Furniture,6,0.2,3465.6,428.03,First Class
+ORD-200504,"Jan 18, 2024",CUST1846,Home Office,North,Tamil Nadu,P002,Laptop Air 13,Technology,8,0.1,7560.0,2579.63,Same Day
+ORD-200505,2025-03-10,CUST1556,Corporate,North,Gujarat,P001,Laptop Pro 14,Technology,5,0.1,5625.0,1186.19,Second Class
+ORD-200506,"May 28, 2025",CUST1886,Home Office,North,Delhi,P005,Mechanical Keyboard,Technology,6,0,3660,513.51,Second Class
+ORD-200507,23/05/2025,CUST1060,Home Office,South,Maharashtra,P017,Standing Desk,Furniture,1,0,722,155.51,Standard Class
+ORD-200508,11/01/2025,CUST1787,Consumer,North,Maharashtra,P005,Mechanical Keyboard,Technology,3,0.2,1464.0,127.19,Standard Class
+ORD-200509,2024-01-06,CUST1568,Home Office,North,Maharashtra,P003,Gaming Laptop X,Technology,7,0,9793,1856.31,Same Day
+ORD-200510,2024-04-28,CUST1860,Corporate,West,Karnataka,P001,Laptop Pro 14,Technology,9,0,11250,2968.59,Second Class
+ORD-200511,"Jan 16, 2025",CUST1753,Corporate,South,Gujarat,P002,Laptop Air 13,Technology,5,0.15,4462.5,408.94,Second Class
+ORD-200512,"Mar 2, 2025",CUST2059,Consumer,North,Gujarat,P003,Gaming Laptop X,Technology,4,0,5596,653.72,
+ORD-200513,2024-07-19,CUST1602,Consumer,West,Delhi,P002,Laptop Air 13,Technology,2,0.2,1680.0,409.92,First Class
+ORD-200514,2024-07-30,CUST1491,Consumer,North,Tamil Nadu,P010,Bluetooth Speaker,Technology,1,0.1,125.1,19.84,Same Day
+ORD-200515,2024-07-03,CUST2322,Consumer,North,Delhi,P003,Gaming Laptop X,Technology,1,0.05,1329.05,261.22,Same Day
+ORD-200516,2025-11-12,CUST1511,Consumer,North,Tamil Nadu,P020,Gel Pen Set,Office Supplies,6,0.1,37.8,13.13,Standard Class
+ORD-200517,2025-04-08,CUST1005,Home Office,South,Delhi,P017,Standing Desk,Furniture,1,0,722,172.94,First Class
+ORD-200518,2024-09-18,CUST1917,Home Office,West,Karnataka,P005,Mechanical Keyboard,Technology,8,0.1,4392.0,785.9,First Class
+ORD-200519,23/12/2024,CUST1631,Corporate,West,Maharashtra,P019,Notebook Pack,Office Supplies,8,0,72,20.53,Same Day
+ORD-200520,2024-06-17,CUST1680,Corporate,South,Tamil Nadu,P003,Gaming Laptop X,Technology,9,0,12591,2598.15,Standard Class
+ORD-200521,"Mar 26, 2025",CUST1577,Home Office,West,Maharashtra,P002,Laptop Air 13,Technology,7,0,7350,653.58,First Class
+ORD-200522,2024-06-22,CUST2186,Consumer,North,Delhi,P019,Notebook Pack,Office Supplies,7,0,63,16.45,Standard Class
+ORD-200523,"Jun 17, 2024",CUST1717,Home Office,South,Tamil Nadu,P005,Mechanical Keyboard,Technology,6,0.1,3294.0,832.92,Standard Class
+ORD-200524,2025-06-26,CUST2131,Corporate,South,Tamil Nadu,P017,Standing Desk,Furniture,4,0.1,2599.2,233.24,Same Day
+ORD-200525,19/12/2024,CUST2067,Home Office,North,Karnataka,P005,Mechanical Keyboard,Technology,5,0,3050,391.29,Standard Class
+ORD-200526,24/12/2025,CUST2275,Home Office,North,Delhi,P005,Mechanical Keyboard,Technology,2,0,1220,139.93,Same Day
+ORD-200527,2025-01-05,CUST1901,Home Office,West,Tamil Nadu,P019,Notebook Pack,Office Supplies,2,0.15,15.3,3.66,Second Class
+ORD-200528,"May 22, 2024",CUST1271,Corporate,East,Gujarat,P017,Standing Desk,Furniture,3,0.05,2057.7,447.51,Second Class
+ORD-200529,2025-08-29,CUST1248,Corporate,West,Tamil Nadu,P016,Office Chair,Furniture,1,0,1102,363.43,First Class
+ORD-200530,2024-05-13,CUST1304,Home Office,East,Maharashtra,P017,Standing Desk,Furniture,9,0.15,5523.3,908.59,Same Day
+ORD-200531,29/03/2025,CUST2250,Consumer,South,Delhi,P010,Bluetooth Speaker,Technology,9,0.05,1188.45,71.08,Second Class
+ORD-200532,12/06/2025,CUST1143,Home Office,North,Karnataka,P019,Notebook Pack,Office Supplies,10,0,90,21.05,Standard Class
+ORD-200533,2024-05-26,CUST2146,Consumer,East,Tamil Nadu,P019,Notebook Pack,Office Supplies,1,0.05,8.55,2.14,Second Class
+ORD-200534,13/01/2025,CUST1124,Corporate,West,Delhi,P016,Office Chair,Furniture,1,0.2,881.6,96.71,Standard Class
+ORD-200535,"May 2, 2024",CUST2205,Corporate,South,Tamil Nadu,P003,Gaming Laptop X,Technology,7,0,9793,743.01,Same Day
+ORD-200536,"Aug 8, 2024",CUST1240,Consumer,West,Karnataka,P003,Gaming Laptop X,Technology,2,0,2798,936.33,Second Class
+ORD-200537,"Jun 15, 2024",CUST1399,Corporate,West,Gujarat,P019,Notebook Pack,Office Supplies,10,0.05,85.5,15.0,Second Class
+ORD-200538,13/05/2024,CUST1961,Home Office,East,Maharashtra,P003,Gaming Laptop X,Technology,6,0.05,7974.3,2186.89,Second Class
+ORD-200539,2025-04-30,CUST1679,Consumer,South,Tamil Nadu,P005,Mechanical Keyboard,Technology,8,0,4880,893.19,Same Day
+ORD-200540,2024-04-29,CUST1554,Home Office,North,Gujarat,P019,Notebook Pack,Office Supplies,2,0.15,15.3,2.4,First Class
+ORD-200541,2025-03-25,CUST1945,Home Office,East,Karnataka,P002,Laptop Air 13,Technology,5,0,5250,964.55,First Class
+ORD-200542,"Sep 16, 2025",CUST1095,Home Office,West,Delhi,P016,Office Chair,Furniture,9,0.1,8926.2,2270.42,Second Class
+ORD-200543,"Jul 17, 2024",CUST1512,Consumer,North,Karnataka,P020,Gel Pen Set,Office Supplies,9,0.1,56.7,12.99,Same Day
+ORD-200544,"Mar 13, 2024",CUST2033,Corporate,North,Maharashtra,P020,Gel Pen Set,Office Supplies,7,0.15,41.65,7.92,First Class
+ORD-200545,13/11/2025,CUST1699,Corporate,East,Maharashtra,P010,Bluetooth Speaker,Technology,5,0.1,625.5,127.15,Same Day
+ORD-200546,10/01/2025,CUST1361,Home Office,West,Maharashtra,P008,Webcam HD,Technology,9,0,8802,2390.61,Standard Class
+ORD-200547,2024-09-04,CUST1620,Corporate,West,Maharashtra,P005,Mechanical Keyboard,Technology,8,0,4880,537.41,First Class
+ORD-200548,13/04/2025,CUST2323,Consumer,East,Gujarat,P020,Gel Pen Set,Office Supplies,4,0,28,2.1,Standard Class
+ORD-200549,"Mar 24, 2025",CUST1606,Home Office,South,Tamil Nadu,P005,Mechanical Keyboard,Technology,8,0.1,4392.0,952.74,First Class
+ORD-200550,20/11/2025,CUST2414,Home Office,South,Gujarat,P003,Gaming Laptop X,Technology,10,0,13990,2281.08,Same Day
+ORD-200551,2025-08-16,CUST1843,Corporate,North,Karnataka,P016,Office Chair,Furniture,1,0,1102,109.91,Standard Class
+ORD-200552,2025-11-10,CUST1113,Home Office,West,Tamil Nadu,P003,Gaming Laptop X,Technology,10,0,13990,3054.56,Standard Class
+ORD-200553,2024-01-04,CUST2449,Corporate,West,Tamil Nadu,P008,Webcam HD,Technology,4,0.05,3716.4,1264.08,Second Class
+ORD-200554,2024-06-16,CUST2265,Home Office,South,Tamil Nadu,P001,Laptop Pro 14,Technology,1,0,1250,362.32,Same Day
+ORD-200555,"Dec 31, 2025",CUST2206,Home Office,West,Maharashtra,P017,Standing Desk,Furniture,8,0,5776,620.22,Same Day
+ORD-200556,"Nov 24, 2025",CUST2140,Consumer,North,Tamil Nadu,P016,Office Chair,Furniture,3,0.2,2644.8,359.42,Second Class
+ORD-200557,"May 1, 2025",CUST2208,Home Office,West,Karnataka,P016,Office Chair,Furniture,2,0,2204,554.89,Standard Class
+ORD-200558,21/12/2024,CUST1354,Home Office,West,Tamil Nadu,P001,Laptop Pro 14,Technology,8,0.1,9000.0,2117.87,First Class
+ORD-200559,2024-08-06,CUST1359,Home Office,North,Karnataka,P017,Standing Desk,Furniture,4,0.1,2599.2,343.98,Second Class
+ORD-200560,2025-05-04,CUST1494,Corporate,West,Karnataka,P020,Gel Pen Set,Office Supplies,10,0.1,63.0,11.21,Second Class
+ORD-200561,2024-09-02,CUST2173,Home Office,South,Gujarat,P019,Notebook Pack,Office Supplies,1,0.1,8.1,0.75,First Class
+ORD-200562,"Mar 28, 2024",CUST1058,Consumer,South,Gujarat,P019,Notebook Pack,Office Supplies,6,0.2,43.2,5.34,First Class
+ORD-200563,"Jul 6, 2024",,Corporate,East,Maharashtra,P008,Webcam HD,Technology,6,0.15,4987.8,1531.17,First Class
+ORD-200564,"Jun 21, 2024",CUST1428,Corporate,South,Karnataka,P003,Gaming Laptop X,Technology,9,0.15,10702.35,3624.79,Standard Class
+ORD-200565,22/06/2024,CUST2123,Corporate,North,Gujarat,P016,Office Chair,Furniture,10,0,11020,2553.38,Second Class
+ORD-200566,26/10/2024,CUST1126,Consumer,North,Tamil Nadu,P002,Laptop Air 13,Technology,1,0.15,892.5,113.33,Second Class
+ORD-200567,2024-11-03,CUST1460,Corporate,North,Maharashtra,P020,Gel Pen Set,Office Supplies,7,0,49,6.21,Same Day
+ORD-200568,"Nov 14, 2024",CUST1235,Consumer,North,Delhi,P005,Mechanical Keyboard,Technology,9,0,5490,1551.95,Second Class
+ORD-200569,25/01/2025,CUST1498,Corporate,East,Karnataka,P020,Gel Pen Set,Office Supplies,4,0,28,9.27,Second Class
+ORD-200570,31/05/2025,CUST2348,Home Office,East,Karnataka,P020,Gel Pen Set,Office Supplies,8,0,56,10.74,Same Day
+ORD-200571,"Sep 18, 2025",CUST2255,Consumer,South,Delhi,P017,Standing Desk,Furniture,4,0.1,2599.2,794.64,Second Class
+ORD-200572,07/12/2024,CUST2153,Home Office,East,Delhi,P019,Notebook Pack,Office Supplies,2,0.15,15.3,4.58,Same Day
+ORD-200573,2025-02-22,CUST1807,Consumer,South,Gujarat,P005,Mechanical Keyboard,Technology,9,0.05,5215.5,1752.35,First Class
+ORD-200574,29/08/2024,CUST1943,Consumer,West,Gujarat,P016,Office Chair,Furniture,9,0.05,9422.1,2326.22,Second Class
+ORD-200575,2024-04-10,CUST1608,Corporate,North,Delhi,P019,Notebook Pack,Office Supplies,6,0,54,5.33,Standard Class
+ORD-200576,2025-01-08,CUST2395,Corporate,East,Maharashtra,P002,Laptop Air 13,Technology,5,0.15,4462.5,427.06,First Class
+ORD-200577,2024-08-19,CUST1892,Consumer,South,Karnataka,P010,Bluetooth Speaker,Technology,3,0.1,375.3,31.88,Same Day
+ORD-200578,"Apr 6, 2025",CUST1059,Corporate,South,Tamil Nadu,P016,Office Chair,Furniture,9,0.1,8926.2,1031.9,Standard Class
+ORD-200579,"Oct 4, 2024",CUST1980,Consumer,East,Delhi,P002,Laptop Air 13,Technology,2,0.2,1680.0,182.02,First Class
+ORD-200580,25/08/2024,CUST1918,Consumer,West,Gujarat,P008,Webcam HD,Technology,2,0.2,1564.8,189.52,Standard Class
+ORD-200581,"Sep 20, 2024",CUST1414,Consumer,East,Maharashtra,P002,Laptop Air 13,Technology,4,0,4200,514.03,First Class
+ORD-200582,2025-05-22,CUST2123,Consumer,West,Delhi,P019,Notebook Pack,Office Supplies,10,0.15,76.5,25.75,Second Class
+ORD-200583,2024-07-05,CUST2313,Consumer,North,Karnataka,P008,Webcam HD,Technology,4,0,3912,348.96,Same Day
+ORD-200584,"Jun 13, 2024",CUST2288,Home Office,North,Delhi,P001,Laptop Pro 14,Technology,2,0.2,2000.0,564.5,First Class
+ORD-200585,19/07/2025,CUST1483,Home Office,South,Delhi,P005,Mechanical Keyboard,Technology,7,0.2,3416.0,542.84,Standard Class
+ORD-200586,12/12/2024,CUST2408,Consumer,East,Tamil Nadu,P010,Bluetooth Speaker,Technology,1,0.1,125.1,41.63,First Class
+ORD-200587,11/01/2025,CUST1137,Consumer,South,Tamil Nadu,P020,Gel Pen Set,Office Supplies,7,0.05,46.55,5.28,Second Class
+ORD-200588,28/07/2025,,Home Office,North,Gujarat,P001,Laptop Pro 14,Technology,7,0.2,7000.0,757.21,Second Class
+ORD-200589,2025-04-09,,Home Office,South,Karnataka,P019,Notebook Pack,Office Supplies,9,0,81,5.3,Standard Class
+ORD-200590,2025-07-24,CUST1611,Corporate,South,Delhi,P016,Office Chair,Furniture,3,0,3306,1034.73,First Class
+ORD-200591,"Jul 24, 2025",CUST1466,Home Office,East,Maharashtra,P020,Gel Pen Set,Office Supplies,5,0,35,12.22,Second Class
+ORD-200592,26/01/2024,CUST1335,Consumer,South,Gujarat,P019,Notebook Pack,Office Supplies,8,0,72,21.39,First Class
+ORD-200593,2025-08-07,CUST2222,Home Office,East,Gujarat,P002,Laptop Air 13,Technology,2,0,2100,230.96,First Class
+ORD-200594,27/06/2025,CUST1795,Corporate,East,Karnataka,P008,Webcam HD,Technology,1,0.2,782.4,191.3,Same Day
+ORD-200595,"May 6, 2024",CUST2025,Corporate,West,Tamil Nadu,P010,Bluetooth Speaker,Technology,3,0,417,84.51,First Class
+ORD-200596,"Dec 3, 2025",CUST1849,Home Office,North,Tamil Nadu,P001,Laptop Pro 14,Technology,1,0.1,1125.0,160.53,Second Class
+ORD-200597,"Jul 5, 2024",CUST1258,Corporate,West,Maharashtra,P017,Standing Desk,Furniture,6,0.05,4115.4,853.88,Standard Class
+ORD-200598,"Feb 28, 2025",CUST1275,Consumer,West,Tamil Nadu,P001,Laptop Pro 14,Technology,10,0,12500,1517.65,Second Class
+ORD-200599,15/11/2025,CUST1850,Corporate,South,Gujarat,P019,Notebook Pack,Office Supplies,3,0,27,9.03,Second Class
+ORD-200600,"Feb 11, 2024",CUST1645,Home Office,East,Tamil Nadu,P020,Gel Pen Set,Office Supplies,2,0,14,0.78,Same Day
+ORD-200601,2024-11-22,CUST1493,Consumer,South,Tamil Nadu,P002,Laptop Air 13,Technology,2,0.2,1680.0,345.37,Second Class
+ORD-200602,2025-08-04,CUST1450,Home Office,West,Tamil Nadu,P016,Office Chair,Furniture,3,0.15,2810.1,902.2,Second Class
+ORD-200603,17/05/2025,CUST2226,Home Office,South,Delhi,P003,Gaming Laptop X,Technology,7,0,9793,1785.38,First Class
+ORD-200604,03/07/2024,CUST2406,Corporate,East,Delhi,P002,Laptop Air 13,Technology,8,0,8400,2111.18,Standard Class
+ORD-200605,"Aug 1, 2025",CUST1916,Corporate,North,Karnataka,P020,Gel Pen Set,Office Supplies,7,0.1,44.1,11.63,Second Class
+ORD-200606,30/01/2025,,Home Office,West,Karnataka,P016,Office Chair,Furniture,4,0,4408,646.48,Standard Class
+ORD-200607,2024-04-20,CUST2203,Home Office,East,Karnataka,P003,Gaming Laptop X,Technology,1,0.1,1259.1,406.87,First Class
+ORD-200608,"Dec 10, 2025",CUST1366,Home Office,West,Karnataka,P017,Standing Desk,Furniture,2,0,1444,276.42,Second Class
+ORD-200609,11/09/2025,CUST2402,Consumer,North,Maharashtra,P002,Laptop Air 13,Technology,10,0,10500,1527.37,
+ORD-200610,28/09/2025,CUST1270,Consumer,West,Delhi,P019,Notebook Pack,Office Supplies,6,0,54,16.2,Same Day
+ORD-200611,27/04/2024,CUST1309,Home Office,North,Tamil Nadu,P017,Standing Desk,Furniture,9,0,6498,1699.52,Same Day
+ORD-200612,23/05/2024,CUST1854,Corporate,West,Delhi,P001,Laptop Pro 14,Technology,8,0,10000,1984.17,Same Day
+ORD-200613,"Mar 24, 2024",CUST2149,Consumer,West,Gujarat,P008,Webcam HD,Technology,2,0.15,1662.6,417.49,Second Class
+ORD-200614,2025-09-14,CUST1938,Home Office,South,Gujarat,P017,Standing Desk,Furniture,8,0.2,4620.8,1182.12,Standard Class
+ORD-200615,12/01/2024,CUST1193,Corporate,North,Tamil Nadu,P002,Laptop Air 13,Technology,7,0,7350,1809.84,Same Day
+ORD-200616,2024-06-17,CUST2328,Consumer,North,Tamil Nadu,P017,Standing Desk,Furniture,2,0,1444,308.85,First Class
+ORD-200617,"May 24, 2025",CUST1623,Consumer,East,Tamil Nadu,P008,Webcam HD,Technology,10,0,9780,2185.19,Same Day
+ORD-200618,2025-08-16,,Home Office,West,Tamil Nadu,P005,Mechanical Keyboard,Technology,10,0,6100,389.67,Same Day
+ORD-200619,06/04/2024,CUST1476,Consumer,South,Maharashtra,P002,Laptop Air 13,Technology,10,0.15,8925.0,1904.88,Same Day
+ORD-200620,"Jul 25, 2024",CUST1813,Consumer,North,Tamil Nadu,P020,Gel Pen Set,Office Supplies,1,0.1,6.3,0.84,
+ORD-200621,"Nov 6, 2024",CUST1780,Corporate,East,Tamil Nadu,P020,Gel Pen Set,Office Supplies,1,0,7,0.7,Standard Class
+ORD-200622,01/06/2024,CUST1158,Home Office,South,Delhi,P002,Laptop Air 13,Technology,1,0,1050,88.95,Same Day
+ORD-200623,24/09/2024,CUST2112,Corporate,North,Karnataka,P020,Gel Pen Set,Office Supplies,5,0.2,28.0,7.91,Second Class
+ORD-200624,"Jul 24, 2024",CUST1617,Consumer,West,Karnataka,P002,Laptop Air 13,Technology,3,0,3150,224.68,Same Day
+ORD-200625,17/09/2025,CUST2216,Home Office,South,Maharashtra,P016,Office Chair,Furniture,4,0,4408,1314.33,First Class
+ORD-200626,"Dec 13, 2025",CUST1038,Consumer,East,Maharashtra,P008,Webcam HD,Technology,2,0,1956,216.12,Second Class
+ORD-200627,01/01/2024,CUST1352,Consumer,West,Delhi,P008,Webcam HD,Technology,2,0.15,1662.6,188.47,Standard Class
+ORD-200628,22/09/2025,,Home Office,West,Karnataka,P003,Gaming Laptop X,Technology,9,0.15,10702.35,2688.42,
+ORD-200629,"Jun 8, 2025",CUST1465,Corporate,South,Maharashtra,P001,Laptop Pro 14,Technology,1,0.15,1062.5,75.19,Same Day
+ORD-200630,24/12/2024,CUST2398,Home Office,North,Maharashtra,P016,Office Chair,Furniture,7,0.2,6171.2,679.45,First Class
+ORD-200631,"Jan 3, 2025",CUST2108,Home Office,East,Maharashtra,P005,Mechanical Keyboard,Technology,3,0.05,1738.5,219.07,Standard Class
+ORD-200632,"Nov 30, 2024",CUST1809,Home Office,South,Maharashtra,P017,Standing Desk,Furniture,10,0.2,5776.0,575.26,Same Day
+ORD-200633,2025-02-20,CUST1860,Consumer,North,Tamil Nadu,P016,Office Chair,Furniture,10,0.05,10469.0,1003.43,Same Day
+ORD-200634,2025-05-11,CUST1785,Home Office,East,Tamil Nadu,P005,Mechanical Keyboard,Technology,1,0,610,63.97,Second Class
+ORD-200635,05/08/2025,CUST1722,Home Office,North,Karnataka,P010,Bluetooth Speaker,Technology,9,0,1251,163.5,Standard Class
+ORD-200636,2024-06-08,CUST1685,Corporate,South,Delhi,P001,Laptop Pro 14,Technology,9,0,11250,926.21,Same Day
+ORD-200637,2025-03-29,CUST1744,Home Office,South,Maharashtra,P017,Standing Desk,Furniture,10,0,7220,692.56,Standard Class
+ORD-200638,13/02/2024,CUST2169,Home Office,East,Delhi,P019,Notebook Pack,Office Supplies,2,0.15,15.3,2.3,Standard Class
+ORD-200639,"Dec 4, 2025",CUST1600,Consumer,West,Gujarat,P010,Bluetooth Speaker,Technology,8,0.15,945.2,278.85,Second Class
+ORD-200640,22/08/2025,CUST1933,Consumer,South,Delhi,P005,Mechanical Keyboard,Technology,10,0.2,4880.0,1141.21,Standard Class
+ORD-200641,21/04/2024,CUST2407,Corporate,West,Gujarat,P003,Gaming Laptop X,Technology,8,0.15,9513.2,1741.89,Second Class
+ORD-200642,12/11/2024,CUST1399,Home Office,South,Maharashtra,P002,Laptop Air 13,Technology,6,0.2,5040.0,791.93,Second Class
+ORD-200643,"Jul 8, 2025",CUST1891,Corporate,West,Karnataka,P003,Gaming Laptop X,Technology,9,0.1,11331.9,3690.78,Second Class
+ORD-200644,"Dec 22, 2024",CUST1883,Consumer,West,Karnataka,P010,Bluetooth Speaker,Technology,8,0.15,945.2,48.72,Same Day
+ORD-200645,"Sep 17, 2024",CUST1837,Consumer,South,Delhi,P020,Gel Pen Set,Office Supplies,4,0.1,25.2,2.31,Second Class
+ORD-200646,2024-06-17,CUST1402,Consumer,East,Tamil Nadu,P002,Laptop Air 13,Technology,2,0.15,1785.0,108.05,Same Day
+ORD-200647,21/04/2025,CUST1369,Home Office,North,Tamil Nadu,P003,Gaming Laptop X,Technology,7,0.15,8324.05,441.21,Same Day
+ORD-200648,30/04/2025,,Home Office,West,Tamil Nadu,P003,Gaming Laptop X,Technology,3,0,4197,306.51,Second Class
+ORD-200649,"Dec 12, 2025",CUST2174,Home Office,West,Delhi,P001,Laptop Pro 14,Technology,2,0,2500,172.94,Second Class
+ORD-200650,"Apr 30, 2025",CUST2034,Corporate,North,Tamil Nadu,P005,Mechanical Keyboard,Technology,8,0.1,4392.0,1390.13,Standard Class
+ORD-200651,"Jul 28, 2024",CUST1980,Consumer,North,Tamil Nadu,P017,Standing Desk,Furniture,5,0,3610,262.3,Second Class
+ORD-200652,07/03/2024,CUST1406,Consumer,North,Gujarat,P005,Mechanical Keyboard,Technology,7,0,4270,573.34,Second Class
+ORD-200653,28/10/2024,CUST2356,Corporate,South,Karnataka,P008,Webcam HD,Technology,9,0.15,7481.7,2248.32,Second Class
+ORD-200654,28/01/2024,CUST1472,Home Office,West,Gujarat,P008,Webcam HD,Technology,8,0.1,7041.6,2121.19,First Class
+ORD-200655,"Nov 5, 2025",CUST1949,Home Office,East,Karnataka,P020,Gel Pen Set,Office Supplies,2,0.15,11.9,3.33,First Class
+ORD-200656,11/09/2025,CUST1066,Corporate,South,Maharashtra,P002,Laptop Air 13,Technology,8,0,8400,1346.44,Same Day
+ORD-200657,"Aug 4, 2025",CUST2188,Corporate,South,Karnataka,P020,Gel Pen Set,Office Supplies,2,0,14,3.61,Second Class
+ORD-200658,2025-11-15,CUST1070,Consumer,North,Delhi,P003,Gaming Laptop X,Technology,4,0.1,5036.4,997.27,First Class
+ORD-200659,2025-06-08,CUST2375,Corporate,West,Delhi,P020,Gel Pen Set,Office Supplies,9,0,63,12.44,Second Class
+ORD-200660,07/05/2024,CUST1890,Corporate,East,Delhi,P003,Gaming Laptop X,Technology,9,0.05,11961.45,1709.06,Second Class
+ORD-200661,13/10/2024,CUST1206,Corporate,West,Maharashtra,P010,Bluetooth Speaker,Technology,3,0,417,117.64,First Class
+ORD-200662,12/04/2024,CUST1033,Corporate,South,Gujarat,P016,Office Chair,Furniture,9,0.2,7934.4,624.54,Standard Class
+ORD-200663,12/02/2024,CUST1458,Corporate,East,Maharashtra,P010,Bluetooth Speaker,Technology,2,0.15,236.3,70.47,Same Day
+ORD-200664,25/01/2025,CUST2105,Home Office,South,Tamil Nadu,P005,Mechanical Keyboard,Technology,6,0.15,3111.0,981.59,Same Day
+ORD-200665,"Mar 10, 2024",CUST1399,Home Office,North,Delhi,P016,Office Chair,Furniture,3,0.15,2810.1,612.9,First Class
+ORD-200666,2025-06-26,CUST2460,Home Office,South,Karnataka,P020,Gel Pen Set,Office Supplies,2,0,14,0.84,First Class
+ORD-200667,2025-01-12,CUST2320,Home Office,North,Delhi,P003,Gaming Laptop X,Technology,10,0.05,13290.5,3919.62,Second Class
+ORD-200668,2025-05-17,CUST1551,Consumer,North,Karnataka,P020,Gel Pen Set,Office Supplies,3,0.05,19.95,5.79,Second Class
+ORD-200669,2025-11-09,CUST1669,Home Office,North,Tamil Nadu,P016,Office Chair,Furniture,10,0.2,8816.0,3015.92,First Class
+ORD-200670,"Jun 19, 2025",CUST2490,Home Office,East,Maharashtra,P017,Standing Desk,Furniture,1,0.15,613.7,198.34,First Class
+ORD-200671,"Jul 2, 2024",CUST1772,Corporate,North,Gujarat,P010,Bluetooth Speaker,Technology,8,0.05,1056.4,102.41,First Class
+ORD-200672,2025-09-19,CUST1549,Home Office,East,Gujarat,P020,Gel Pen Set,Office Supplies,3,0.15,17.85,2.55,Same Day
+ORD-200673,27/11/2024,CUST1124,Corporate,East,Tamil Nadu,P020,Gel Pen Set,Office Supplies,4,0.15,23.8,2.7,Second Class
+ORD-200674,11/01/2024,CUST1000,Consumer,South,Maharashtra,P019,Notebook Pack,Office Supplies,2,0,18,2.07,First Class
+ORD-200675,"Jun 9, 2025",CUST1246,Home Office,North,Gujarat,P002,Laptop Air 13,Technology,9,0,9450,2738.41,Standard Class
+ORD-200676,2024-12-18,CUST1432,Consumer,South,Karnataka,P001,Laptop Pro 14,Technology,5,0.05,5937.5,1332.26,First Class
+ORD-200677,2024-10-31,CUST1812,Home Office,North,Karnataka,P005,Mechanical Keyboard,Technology,7,0.15,3629.5,898.06,Standard Class
+ORD-200678,"Jun 27, 2024",CUST2426,Corporate,West,Tamil Nadu,P001,Laptop Pro 14,Technology,2,0,2500,222.83,Second Class
+ORD-200679,"Feb 13, 2025",CUST1301,Consumer,East,Tamil Nadu,P002,Laptop Air 13,Technology,6,0.1,5670.0,1730.61,Second Class
+ORD-200680,17/05/2025,CUST2307,Consumer,East,Tamil Nadu,P008,Webcam HD,Technology,1,0.1,880.2,302.23,First Class
+ORD-200681,15/11/2025,CUST1928,Consumer,West,Maharashtra,P008,Webcam HD,Technology,3,0.1,2640.6,568.01,First Class
+ORD-200682,2025-07-28,CUST1319,Consumer,East,Gujarat,P005,Mechanical Keyboard,Technology,9,0.1,4941.0,982.69,Standard Class
+ORD-200683,01/01/2025,CUST1084,Home Office,South,Maharashtra,P010,Bluetooth Speaker,Technology,10,0,1390,388.72,Standard Class
+ORD-200684,"Jun 29, 2025",CUST2436,Consumer,East,Karnataka,P019,Notebook Pack,Office Supplies,10,0.15,76.5,17.43,Standard Class
+ORD-200685,11/04/2024,CUST1421,Home Office,East,Gujarat,P020,Gel Pen Set,Office Supplies,7,0,49,15.97,Same Day
+ORD-200686,2024-05-11,CUST1525,Corporate,East,Gujarat,P020,Gel Pen Set,Office Supplies,7,0.1,44.1,5.75,First Class
+ORD-200687,09/01/2025,CUST2153,Consumer,North,Karnataka,P005,Mechanical Keyboard,Technology,1,0.1,549.0,124.24,Standard Class
+ORD-200688,2025-06-01,CUST2439,Home Office,South,Gujarat,P010,Bluetooth Speaker,Technology,9,0,1251,166.34,Same Day
+ORD-200689,2024-03-19,CUST1558,Home Office,North,Gujarat,P002,Laptop Air 13,Technology,7,0.2,5880.0,972.93,Second Class
+ORD-200690,2024-02-13,CUST2178,Home Office,South,Tamil Nadu,P010,Bluetooth Speaker,Technology,6,0.15,708.9,144.04,Same Day
+ORD-200691,"Oct 6, 2024",CUST1007,Corporate,North,Tamil Nadu,P008,Webcam HD,Technology,3,0,2934,686.07,Standard Class
+ORD-200692,27/05/2024,CUST1804,Consumer,East,Karnataka,P010,Bluetooth Speaker,Technology,9,0,1251,122.47,Same Day
+ORD-200693,05/02/2024,CUST2439,Corporate,East,Karnataka,P003,Gaming Laptop X,Technology,7,0.05,9303.35,1125.13,Standard Class
+ORD-200694,2024-02-13,CUST1332,Home Office,East,Gujarat,P001,Laptop Pro 14,Technology,7,0.05,8312.5,674.89,Standard Class
+ORD-200695,"Jun 24, 2024",CUST2346,Home Office,North,Karnataka,P017,Standing Desk,Furniture,10,0.15,6137.0,444.75,Second Class
+ORD-200696,2025-11-17,CUST2277,Corporate,South,Maharashtra,P001,Laptop Pro 14,Technology,3,0,3750,918.0,Standard Class
+ORD-200697,17/10/2025,CUST1907,Corporate,East,Delhi,P001,Laptop Pro 14,Technology,1,0,1250,126.61,Same Day
+ORD-200698,2024-11-20,CUST1655,Corporate,South,Gujarat,P019,Notebook Pack,Office Supplies,5,0,45,7.27,Second Class
+ORD-200699,"Oct 12, 2025",CUST1870,Corporate,North,Maharashtra,P008,Webcam HD,Technology,2,0.2,1564.8,296.21,First Class
+ORD-200700,09/08/2024,CUST2013,Consumer,East,Karnataka,P017,Standing Desk,Furniture,7,0.1,4548.6,644.28,Second Class
+ORD-200701,2025-12-27,CUST1429,Consumer,East,Karnataka,P003,Gaming Laptop X,Technology,3,0,4197,452.15,Second Class
+ORD-200702,30/12/2025,CUST1661,Home Office,South,Tamil Nadu,P008,Webcam HD,Technology,9,0.2,7041.6,787.04,Same Day
+ORD-200703,"Sep 19, 2025",,Home Office,West,Karnataka,P017,Standing Desk,Furniture,1,0.2,577.6,62.04,Same Day
+ORD-200704,"Jun 23, 2025",CUST1887,Consumer,North,Karnataka,P002,Laptop Air 13,Technology,1,0,1050,297.64,Same Day
+ORD-200705,30/06/2025,CUST1337,Consumer,East,Karnataka,P017,Standing Desk,Furniture,6,0,4332,338.71,Second Class
+ORD-200706,04/02/2025,CUST2045,Home Office,East,Gujarat,P010,Bluetooth Speaker,Technology,2,0,278,25.6,Standard Class
+ORD-200707,18/12/2024,CUST1203,Consumer,South,Gujarat,P003,Gaming Laptop X,Technology,4,0.2,4476.8,740.92,Standard Class
+ORD-200708,"Jun 19, 2024",CUST2152,Corporate,East,Karnataka,P020,Gel Pen Set,Office Supplies,6,0.2,33.6,5.04,Standard Class
+ORD-200709,"Mar 31, 2025",CUST1316,Corporate,West,Maharashtra,P008,Webcam HD,Technology,6,0,5868,1910.37,First Class
+ORD-200710,"Feb 16, 2025",CUST1177,Home Office,North,Karnataka,P002,Laptop Air 13,Technology,5,0.05,4987.5,432.53,Same Day
+ORD-200711,"Feb 4, 2024",CUST1888,Corporate,West,Gujarat,P003,Gaming Laptop X,Technology,4,0.1,5036.4,1273.87,Standard Class
+ORD-200712,17/08/2025,CUST1411,Consumer,North,Maharashtra,P019,Notebook Pack,Office Supplies,7,0,63,9.73,First Class
+ORD-200713,2024-02-04,CUST1973,Consumer,South,Karnataka,P010,Bluetooth Speaker,Technology,5,0.15,590.75,153.27,First Class
+ORD-200714,"Mar 19, 2025",CUST1884,Corporate,East,Delhi,P005,Mechanical Keyboard,Technology,2,0.2,976.0,216.89,Second Class
+ORD-200715,2024-01-04,CUST1813,Home Office,West,Maharashtra,P008,Webcam HD,Technology,2,0.1,1760.4,590.43,First Class
+ORD-200716,"Dec 18, 2025",CUST2498,Consumer,South,Gujarat,P019,Notebook Pack,Office Supplies,10,0,90,29.98,First Class
+ORD-200717,08/12/2024,CUST1040,Home Office,North,Maharashtra,P002,Laptop Air 13,Technology,4,0,4200,1029.57,Second Class
+ORD-200718,13/02/2024,CUST2394,Home Office,North,Maharashtra,P005,Mechanical Keyboard,Technology,4,0,2440,744.47,Second Class
+ORD-200719,24/11/2024,CUST1903,Consumer,North,Delhi,P005,Mechanical Keyboard,Technology,5,0,3050,166.14,First Class
+ORD-200720,13/09/2025,CUST1874,Home Office,North,Delhi,P003,Gaming Laptop X,Technology,1,0.1,1259.1,330.92,Standard Class
+ORD-200721,"Dec 8, 2025",CUST2016,Home Office,East,Maharashtra,P010,Bluetooth Speaker,Technology,9,0.1,1125.9,121.84,First Class
+ORD-200722,"Oct 8, 2024",CUST1799,Home Office,South,Maharashtra,P008,Webcam HD,Technology,7,0.1,6161.4,720.69,Standard Class
+ORD-200723,2025-01-29,CUST1627,Home Office,West,Delhi,P008,Webcam HD,Technology,1,0.1,880.2,157.81,Second Class
+ORD-200724,29/08/2024,CUST1999,Consumer,West,Maharashtra,P008,Webcam HD,Technology,1,0.15,831.3,289.93,Standard Class
+ORD-200725,2025-06-29,CUST1835,Consumer,West,Tamil Nadu,P016,Office Chair,Furniture,1,0.15,936.7,63.09,Standard Class
+ORD-200726,30/08/2025,CUST1797,Corporate,North,Delhi,P019,Notebook Pack,Office Supplies,9,0,81,15.91,Standard Class
+ORD-200727,"Mar 5, 2025",CUST2030,Corporate,North,Tamil Nadu,P020,Gel Pen Set,Office Supplies,5,0.15,29.75,6.84,Standard Class
+ORD-200728,"Jan 28, 2025",CUST1761,Consumer,North,Delhi,P010,Bluetooth Speaker,Technology,1,0.05,132.05,43.74,Standard Class
+ORD-200729,2025-10-17,CUST1382,Home Office,North,Gujarat,P005,Mechanical Keyboard,Technology,6,0,3660,239.32,First Class
+ORD-200730,07/01/2024,CUST1982,Corporate,South,Karnataka,P016,Office Chair,Furniture,8,0,8816,617.05,First Class
+ORD-200731,"May 22, 2025",CUST2466,Home Office,South,Karnataka,P001,Laptop Pro 14,Technology,7,0.1,7875.0,511.93,Second Class
+ORD-200732,"Feb 4, 2024",CUST2362,Home Office,South,Karnataka,P001,Laptop Pro 14,Technology,2,0.05,2375.0,734.31,Same Day
+ORD-200733,"Jan 12, 2024",CUST2196,Home Office,West,Maharashtra,P016,Office Chair,Furniture,9,0.1,8926.2,2649.9,Second Class
+ORD-200734,09/05/2025,CUST1273,Home Office,South,Gujarat,P001,Laptop Pro 14,Technology,2,0,2500,363.48,Same Day
+ORD-200735,"Oct 21, 2024",CUST2083,Corporate,North,Delhi,P010,Bluetooth Speaker,Technology,1,0.1,125.1,7.07,Second Class
+ORD-200736,"Aug 2, 2025",CUST1123,Corporate,North,Tamil Nadu,P020,Gel Pen Set,Office Supplies,4,0,28,3.78,Same Day
+ORD-200737,01/08/2025,CUST2314,Home Office,West,Gujarat,P010,Bluetooth Speaker,Technology,10,0,1390,267.73,Standard Class
+ORD-200738,"Aug 11, 2024",CUST2431,Consumer,North,Maharashtra,P010,Bluetooth Speaker,Technology,6,0,834,273.8,Second Class
+ORD-200739,13/09/2024,CUST1783,Home Office,North,Tamil Nadu,P019,Notebook Pack,Office Supplies,2,0.2,14.4,3.45,Second Class
+ORD-200740,"Jun 10, 2024",CUST1035,Home Office,South,Tamil Nadu,P001,Laptop Pro 14,Technology,9,0.05,10687.5,3519.09,First Class
+ORD-200741,20/05/2024,CUST1348,Home Office,West,Tamil Nadu,P008,Webcam HD,Technology,5,0.1,4401.0,1243.62,Second Class
+ORD-200742,"Sep 25, 2024",CUST1527,Corporate,South,Maharashtra,P010,Bluetooth Speaker,Technology,10,0.05,1320.5,112.6,First Class
+ORD-200743,"Apr 22, 2024",CUST1567,Home Office,East,Maharashtra,P005,Mechanical Keyboard,Technology,10,0,6100,1624.54,Standard Class
+ORD-200744,2024-10-09,CUST2171,Home Office,East,Karnataka,P020,Gel Pen Set,Office Supplies,9,0,63,16.25,First Class
+ORD-200745,03/08/2025,CUST1036,Consumer,South,Karnataka,P019,Notebook Pack,Office Supplies,1,0.15,7.65,2.57,Same Day
+ORD-200746,29/03/2025,CUST1373,Corporate,North,Maharashtra,P003,Gaming Laptop X,Technology,5,0.15,5945.75,505.82,Same Day
+ORD-200747,22/06/2025,CUST1529,Home Office,East,Gujarat,P019,Notebook Pack,Office Supplies,3,0.05,25.65,5.06,First Class
+ORD-200748,2024-09-30,CUST2390,Consumer,East,Gujarat,P019,Notebook Pack,Office Supplies,9,0.1,72.9,18.12,Standard Class
+ORD-200749,2025-09-28,CUST2091,Consumer,South,Karnataka,P016,Office Chair,Furniture,2,0.1,1983.6,319.29,Same Day
+ORD-200750,23/07/2024,CUST1472,Home Office,East,Delhi,P010,Bluetooth Speaker,Technology,6,0.1,750.6,164.74,Same Day
+ORD-200751,"Mar 8, 2025",CUST2035,Home Office,West,Maharashtra,P001,Laptop Pro 14,Technology,3,0.05,3562.5,716.74,Same Day
+ORD-200752,"Apr 15, 2024",CUST2125,Home Office,North,Maharashtra,P019,Notebook Pack,Office Supplies,3,0,27,4.58,Same Day
+ORD-200753,"Aug 22, 2025",CUST1401,Home Office,East,Maharashtra,P002,Laptop Air 13,Technology,4,0.1,3780.0,219.1,Second Class
+ORD-200754,12/07/2025,CUST1535,Home Office,East,Gujarat,P020,Gel Pen Set,Office Supplies,4,0,28,7.12,Second Class
+ORD-200755,"Feb 2, 2024",CUST2341,Consumer,West,Tamil Nadu,P008,Webcam HD,Technology,10,0.05,9291.0,1301.9,Standard Class
+ORD-200756,07/05/2024,CUST1053,Home Office,West,Gujarat,P008,Webcam HD,Technology,6,0.2,4694.4,1462.83,Second Class
+ORD-200757,12/10/2024,CUST1605,Corporate,South,Tamil Nadu,P005,Mechanical Keyboard,Technology,8,0,4880,1512.55,Same Day
+ORD-200758,"Mar 4, 2024",CUST2403,Consumer,North,Delhi,P005,Mechanical Keyboard,Technology,3,0.05,1738.5,586.84,Second Class
+ORD-200759,2024-09-10,CUST2177,Corporate,North,Maharashtra,P008,Webcam HD,Technology,6,0,5868,892.78,First Class
+ORD-200760,08/06/2024,CUST1778,Corporate,West,Karnataka,P016,Office Chair,Furniture,8,0,8816,1035.31,Standard Class
+ORD-200761,2024-10-13,CUST1313,Consumer,East,Maharashtra,P003,Gaming Laptop X,Technology,6,0,8394,2470.02,First Class
+ORD-200762,07/09/2025,CUST1239,Corporate,North,Tamil Nadu,P017,Standing Desk,Furniture,3,0,2166,441.82,Standard Class
+ORD-200763,16/07/2025,CUST2057,Corporate,South,Karnataka,P016,Office Chair,Furniture,5,0.05,5234.5,460.98,Second Class
+ORD-200764,"Jan 14, 2024",CUST2288,Corporate,North,Tamil Nadu,P010,Bluetooth Speaker,Technology,10,0,1390,395.94,Standard Class
+ORD-200765,"Oct 20, 2024",CUST1431,Home Office,South,Delhi,P010,Bluetooth Speaker,Technology,8,0.15,945.2,324.95,First Class
+ORD-200766,2025-07-09,,Consumer,North,Gujarat,P005,Mechanical Keyboard,Technology,2,0.1,1098.0,303.88,Standard Class
+ORD-200767,2025-07-20,CUST1248,Corporate,West,Delhi,P010,Bluetooth Speaker,Technology,5,0,695,232.41,First Class
+ORD-200768,27/03/2024,CUST2285,Home Office,East,Tamil Nadu,P017,Standing Desk,Furniture,2,0.1,1299.6,201.02,Standard Class
+ORD-200769,2025-03-28,CUST2282,Home Office,West,Maharashtra,P016,Office Chair,Furniture,5,0,5510,1407.06,Second Class
+ORD-200770,08/08/2025,CUST1305,Corporate,West,Delhi,P016,Office Chair,Furniture,7,0.2,6171.2,1600.03,Same Day
+ORD-200771,2025-07-10,CUST1083,Home Office,South,Gujarat,P019,Notebook Pack,Office Supplies,4,0,36,9.7,Same Day
+ORD-200772,20/10/2024,CUST1612,Corporate,North,Tamil Nadu,P005,Mechanical Keyboard,Technology,2,0,1220,396.26,Same Day
+ORD-200773,30/08/2025,CUST1728,Consumer,East,Karnataka,P001,Laptop Pro 14,Technology,7,0.05,8312.5,2623.93,Second Class
+ORD-200774,30/10/2025,CUST2061,Consumer,North,Karnataka,P001,Laptop Pro 14,Technology,10,0,12500,1836.65,Same Day
+ORD-200775,23/05/2025,CUST1538,Consumer,South,Delhi,P001,Laptop Pro 14,Technology,10,0.15,10625.0,1264.99,First Class
+ORD-200776,19/03/2024,CUST2338,Consumer,South,Gujarat,P008,Webcam HD,Technology,9,0.15,7481.7,2273.73,Same Day
+ORD-200777,2025-06-19,CUST1517,Consumer,East,Gujarat,P003,Gaming Laptop X,Technology,6,0,8394,2878.76,First Class
+ORD-200778,16/12/2024,CUST1818,Home Office,South,Delhi,P008,Webcam HD,Technology,8,0,7824,736.8,Standard Class
+ORD-200779,02/01/2024,CUST1262,Home Office,East,Gujarat,P003,Gaming Laptop X,Technology,5,0.05,6645.25,479.57,Standard Class
+ORD-200780,"Feb 13, 2024",CUST2006,Home Office,West,Tamil Nadu,P020,Gel Pen Set,Office Supplies,2,0.05,13.3,1.68,First Class
+ORD-200781,2024-11-05,CUST1241,Consumer,West,Tamil Nadu,P017,Standing Desk,Furniture,9,0.1,5848.2,762.7,First Class
+ORD-200782,"Jan 10, 2024",,Consumer,West,Delhi,P001,Laptop Pro 14,Technology,2,0.15,2125.0,364.07,First Class
+ORD-200783,29/09/2024,CUST2389,Home Office,West,Maharashtra,P001,Laptop Pro 14,Technology,6,0,7500,2610.68,First Class
+ORD-200784,2025-04-08,CUST2088,Consumer,South,Delhi,P019,Notebook Pack,Office Supplies,4,0.1,32.4,9.62,Same Day
+ORD-200785,"Nov 8, 2025",CUST1812,Corporate,North,Tamil Nadu,P017,Standing Desk,Furniture,5,0.15,3068.5,644.85,Same Day
+ORD-200786,"Jan 29, 2024",CUST1170,Consumer,West,Karnataka,P017,Standing Desk,Furniture,9,0.2,5198.4,1627.19,Standard Class
+ORD-200787,"Mar 7, 2024",CUST1067,Consumer,West,Karnataka,P019,Notebook Pack,Office Supplies,1,0.05,8.55,2.71,First Class
+ORD-200788,03/07/2024,CUST1343,Consumer,North,Karnataka,P008,Webcam HD,Technology,1,0.1,880.2,307.21,Same Day
+ORD-200789,02/09/2024,CUST1118,Consumer,South,Maharashtra,P008,Webcam HD,Technology,3,0,2934,533.05,First Class
+ORD-200790,25/07/2025,CUST2308,Consumer,South,Gujarat,P020,Gel Pen Set,Office Supplies,1,0.2,5.6,1.33,Same Day
+ORD-200791,2025-03-05,CUST1309,Home Office,North,Gujarat,P016,Office Chair,Furniture,1,0.1,991.8,242.93,Same Day
+ORD-200792,2024-09-18,CUST1713,Home Office,North,Maharashtra,P008,Webcam HD,Technology,10,0,9780,2203.83,First Class
+ORD-200793,08/11/2025,CUST1138,Consumer,West,Tamil Nadu,P010,Bluetooth Speaker,Technology,8,0.15,945.2,111.09,First Class
+ORD-200794,"Oct 14, 2024",CUST1231,Home Office,West,Karnataka,P005,Mechanical Keyboard,Technology,5,0,3050,308.12,Second Class
+ORD-200795,"Oct 17, 2025",CUST1542,Corporate,South,Tamil Nadu,P010,Bluetooth Speaker,Technology,7,0.05,924.35,264.49,First Class
+ORD-200796,2024-06-13,CUST2384,Home Office,East,Gujarat,P001,Laptop Pro 14,Technology,8,0.05,9500.0,3202.96,Standard Class
+ORD-200797,2024-11-23,CUST1080,Consumer,North,Tamil Nadu,P020,Gel Pen Set,Office Supplies,7,0.15,41.65,12.33,Same Day
+ORD-200798,2025-09-29,CUST2374,Home Office,East,Tamil Nadu,P002,Laptop Air 13,Technology,3,0.2,2520.0,348.39,Standard Class
+ORD-200799,"Jul 26, 2025",CUST1651,Corporate,East,Delhi,P019,Notebook Pack,Office Supplies,8,0.15,61.2,21.38,Standard Class

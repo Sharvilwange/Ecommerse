@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sales Data Analyzer – Browser-Native Analytics</title>
+  <meta name="description" content="Upload messy sales CSV/Excel files. Auto-clean, visualize, and query your data with SQL – all in the browser, no server required." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+
+  <!-- External Libraries -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sql.js/1.10.3/sql-wasm.js"></script>
+  <!-- CodeMirror SQL Editor -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/theme/dracula.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/theme/eclipse.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/codemirror.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/mode/sql/sql.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/addon/edit/matchbrackets.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/addon/edit/closebrackets.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/addon/hint/show-hint.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/addon/hint/sql-hint.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.16/addon/hint/show-hint.min.css" />
+  <!-- html2canvas for PNG export -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="brand">
+        <div class="brand-icon">📊</div>
+        <div>
+          <h1 class="brand-title">Sales Data Analyzer</h1>
+          <p class="brand-sub">Browser-native · No server · Your data stays private</p>
+        </div>
+      </div>
+      <div class="header-actions">
+        <span class="privacy-badge">🔒 Your data never leaves your browser</span>
+        <button id="themeToggle" class="btn btn-icon" title="Toggle dark/light mode" aria-label="Toggle theme">🌙</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- TAB NAVIGATION -->
+  <nav class="tab-nav" role="tablist" aria-label="App sections">
+    <button class="tab-btn active" data-tab="upload" role="tab" aria-selected="true" id="tab-upload">
+      <span class="tab-icon">📁</span> Upload
+    </button>
+    <button class="tab-btn" data-tab="clean" role="tab" aria-selected="false" id="tab-clean" disabled>
+      <span class="tab-icon">🧹</span> Cleaning
+    </button>
+    <button class="tab-btn" data-tab="dashboard" role="tab" aria-selected="false" id="tab-dashboard" disabled>
+      <span class="tab-icon">📈</span> Dashboard
+    </button>
+    <button class="tab-btn" data-tab="sql" role="tab" aria-selected="false" id="tab-sql" disabled>
+      <span class="tab-icon">🗄️</span> SQL Playground
+    </button>
+    <button class="tab-btn" data-tab="about" role="tab" aria-selected="false" id="tab-about">
+      <span class="tab-icon">ℹ️</span> About
+    </button>
+  </nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="tab-content">
+
+    <!-- TAB 1: UPLOAD -->
+    <section id="tab-upload-content" class="tab-panel active" role="tabpanel" aria-labelledby="tab-upload">
+      <div class="section-card">
+        <h2 class="section-title">Upload Your Sales File</h2>
+        <p class="section-sub">Supports CSV and Excel (.xlsx) files up to 50,000 rows</p>
+        <div id="dropZone" class="drop-zone" role="button" tabindex="0" aria-label="File drop zone">
+          <div class="drop-zone-inner">
+            <div class="drop-icon">📂</div>
+            <p class="drop-title">Drag &amp; drop your CSV or Excel file here</p>
+            <p class="drop-sub">or</p>
+            <label class="btn btn-primary" for="fileInput">Browse File</label>
+            <input type="file" id="fileInput" accept=".csv,.xlsx,.xls" hidden aria-label="File input" />
+          </div>
+          <div class="drop-zone-divider"><span>or try our sample</span></div>
+          <button id="loadSampleBtn" class="btn btn-secondary btn-wide">
+            ✨ Load Sample Dataset (~500 rows messy data)
+          </button>
+        </div>
+      </div>
+
+      <div id="rawPreviewSection" class="section-card hidden">
+        <div class="section-header-row">
+          <h2 class="section-title">Raw Data Preview <span id="rawRowCount" class="badge"></span></h2>
+          <button id="proceedToCleanBtn" class="btn btn-primary btn-glow">Clean Data →</button>
+        </div>
+        <p class="section-sub">First 20 rows of your file (before any cleaning)</p>
+        <div id="columnMappingSection" class="mapping-panel">
+          <h3 class="mapping-title">🗂️ Column Mapping</h3>
+          <p class="mapping-sub">Auto-detected columns. Adjust if needed before cleaning.</p>
+          <div id="mappingGrid" class="mapping-grid"></div>
+        </div>
+        <div class="table-wrapper">
+          <table id="rawPreviewTable" class="data-table">
+            <thead id="rawPreviewHead"></thead>
+            <tbody id="rawPreviewBody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 2: CLEANING -->
+    <section id="tab-clean-content" class="tab-panel" role="tabpanel" aria-labelledby="tab-clean">
+      <div class="section-card">
+        <div class="section-header-row">
+          <div>
+            <h2 class="section-title">🧹 Data Cleaning Rules</h2>
+            <p class="section-sub">Toggle rules then re-run cleaning</p>
+          </div>
+          <div class="btn-group">
+            <button id="reRunCleanBtn" class="btn btn-primary btn-glow">▶ Run Cleaning</button>
+            <button id="downloadCleanBtn" class="btn btn-secondary" disabled>⬇ Download Cleaned CSV</button>
+          </div>
+        </div>
+        <div id="cleaningRules" class="rules-grid"></div>
+      </div>
+
+      <div id="qualityReport" class="section-card hidden">
+        <h2 class="section-title">📋 Data Quality Report</h2>
+        <div id="qualityMetrics" class="metrics-grid"></div>
+        <div id="beforeAfterGrid" class="before-after-grid"></div>
+      </div>
+
+      <div id="changeLogSection" class="section-card hidden">
+        <h2 class="section-title">📜 Change Log <span id="changeLogCount" class="badge"></span></h2>
+        <div id="changeLogList" class="change-log"></div>
+      </div>
+
+      <div id="outlierSection" class="section-card hidden"></div>
+    </section>
+
+    <!-- TAB 3: DASHBOARD -->
+    <section id="tab-dashboard-content" class="tab-panel" role="tabpanel" aria-labelledby="tab-dashboard">
+      <div class="section-card filter-bar">
+        <div class="filter-row">
+          <div class="filter-group">
+            <label for="filterStartDate">From</label>
+            <input type="date" id="filterStartDate" class="filter-input" />
+          </div>
+          <div class="filter-group">
+            <label for="filterEndDate">To</label>
+            <input type="date" id="filterEndDate" class="filter-input" />
+          </div>
+          <div class="filter-group">
+            <label for="filterRegion">Region</label>
+            <select id="filterRegion" class="filter-input"><option value="">All</option></select>
+          </div>
+          <div class="filter-group">
+            <label for="filterCategory">Category</label>
+            <select id="filterCategory" class="filter-input"><option value="">All</option></select>
+          </div>
+          <div class="filter-group">
+            <label for="filterSegment">Segment</label>
+            <select id="filterSegment" class="filter-input"><option value="">All</option></select>
+          </div>
+          <button id="applyFilters" class="btn btn-primary">Apply</button>
+          <button id="resetFilters" class="btn btn-ghost">Reset</button>
+          <button id="downloadDashboard" class="btn btn-secondary">⬇ Export PNG</button>
+        </div>
+      </div>
+
+      <div id="kpiRow" class="kpi-row"></div>
+
+      <div id="chartsGrid" class="charts-grid">
+        <div class="chart-card wide">
+          <h3 class="chart-title">Monthly Sales &amp; Profit Trend</h3>
+          <div class="chart-wrap"><canvas id="chartMonthly"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <h3 class="chart-title">Sales by Region</h3>
+          <div class="chart-wrap"><canvas id="chartRegion"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <h3 class="chart-title">Category Share</h3>
+          <div class="chart-wrap"><canvas id="chartCategory"></canvas></div>
+        </div>
+        <div class="chart-card wide">
+          <h3 class="chart-title">Top 10 Products by Sales</h3>
+          <div class="chart-wrap"><canvas id="chartTopProducts"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <h3 class="chart-title">Discount Band vs Profit Margin</h3>
+          <div class="chart-wrap"><canvas id="chartDiscount"></canvas></div>
+        </div>
+        <div class="chart-card">
+          <h3 class="chart-title">Quarter-over-Quarter Growth</h3>
+          <div class="chart-wrap"><canvas id="chartQoQ"></canvas></div>
+        </div>
+      </div>
+
+      <div id="insightsCard" class="section-card insights-card">
+        <h2 class="section-title">💡 Key Insights</h2>
+        <div id="insightsList" class="insights-list"></div>
+      </div>
+    </section>
+
+    <!-- TAB 4: SQL PLAYGROUND -->
+    <section id="tab-sql-content" class="tab-panel" role="tabpanel" aria-labelledby="tab-sql">
+      <div class="sql-layout">
+        <aside class="sql-sidebar">
+          <div class="sidebar-section">
+            <h3 class="sidebar-title">📋 Schema</h3>
+            <div id="schemaPanel" class="schema-panel"></div>
+          </div>
+          <div class="sidebar-section">
+            <h3 class="sidebar-title">⏱ Query History</h3>
+            <div id="queryHistory" class="query-history"></div>
+          </div>
+        </aside>
+
+        <div class="sql-main">
+          <div class="section-card sql-editor-card">
+            <div class="sql-toolbar">
+              <select id="exampleQueries" class="filter-input" aria-label="Example queries">
+                <option value="">— Load example query —</option>
+                <option value="total_by_region">Total sales by region</option>
+                <option value="top10_products">Top 10 products</option>
+                <option value="monthly_mom">Monthly trend with MoM growth</option>
+                <option value="top3_per_region">Top 3 products per region (RANK)</option>
+                <option value="discount_impact">Discount impact (CASE bands)</option>
+                <option value="above_avg_customers">Customers above average revenue</option>
+                <option value="cumulative_revenue">Cumulative revenue (running total)</option>
+              </select>
+              <button id="runQueryBtn" class="btn btn-primary btn-glow">▶ Run <kbd>Ctrl+↵</kbd></button>
+              <button id="clearQueryBtn" class="btn btn-ghost">✕ Clear</button>
+            </div>
+            <div id="sqlEditorWrap"></div>
+          </div>
+
+          <div class="section-card">
+            <div class="section-header-row">
+              <div id="queryMeta" class="query-meta"></div>
+              <div class="btn-group">
+                <button id="downloadResultsBtn" class="btn btn-secondary" disabled>⬇ CSV</button>
+                <button id="chartResultBtn" class="btn btn-secondary" disabled>📊 Chart This</button>
+              </div>
+            </div>
+            <div id="queryError" class="query-error hidden"></div>
+            <div id="queryResultWrap" class="table-wrapper">
+              <div id="queryResultEmpty" class="empty-state">
+                <div class="empty-icon">🗄️</div>
+                <p>Run a query to see results</p>
+              </div>
+              <table id="queryResultTable" class="data-table hidden">
+                <thead id="queryResultHead"></thead>
+                <tbody id="queryResultBody"></tbody>
+              </table>
+            </div>
+            <div id="queryChartWrap" class="query-chart-wrap hidden">
+              <canvas id="queryChart"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TAB 5: ABOUT -->
+    <section id="tab-about-content" class="tab-panel" role="tabpanel" aria-labelledby="tab-about">
+      <div class="about-layout">
+        <div class="about-hero">
+          <div class="about-icon">📊</div>
+          <h2 class="about-title">Sales Data Analyzer</h2>
+          <p class="about-tagline">A browser-native analytics tool built for data analyst portfolios</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-card">
+            <h3>🔒 Privacy First</h3>
+            <p>All processing happens entirely in your browser using WebAssembly. No data is ever sent to any server.</p>
+          </div>
+          <div class="about-card">
+            <h3>🧹 Intelligent Cleaning</h3>
+            <p>Automatically detects and fixes duplicate rows, inconsistent text casing, mixed date formats, negative quantities, missing values, and statistical outliers.</p>
+          </div>
+          <div class="about-card">
+            <h3>📈 Auto Dashboard</h3>
+            <p>Generates KPI cards, six interactive charts, and auto-written key insights from your cleaned data. Filter by date, region, category, and segment.</p>
+          </div>
+          <div class="about-card">
+            <h3>🗄️ SQL Playground</h3>
+            <p>Run full ANSI SQL (with window functions, CTEs, subqueries) on your data using SQLite WASM. Seven example queries included.</p>
+          </div>
+        </div>
+        <div class="tech-stack-card">
+          <h3>🛠️ Tech Stack</h3>
+          <div class="tech-pills">
+            <span class="tech-pill">HTML5 + CSS3</span>
+            <span class="tech-pill">Vanilla JavaScript</span>
+            <span class="tech-pill">PapaParse v5</span>
+            <span class="tech-pill">SheetJS (xlsx)</span>
+            <span class="tech-pill">sql.js (SQLite WASM)</span>
+            <span class="tech-pill">Chart.js v4</span>
+            <span class="tech-pill">CodeMirror 5</span>
+            <span class="tech-pill">html2canvas</span>
+          </div>
+        </div>
+        <div class="about-links">
+          <a href="https://github.com/" target="_blank" rel="noopener" class="btn btn-primary">🐙 View on GitHub</a>
+          <a href="data/sample_sales_messy.csv" download class="btn btn-secondary">⬇ Download Sample Data</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- LOADING OVERLAY -->
+  <div id="loadingOverlay" class="loading-overlay hidden">
+    <div class="loading-box">
+      <div class="spinner"></div>
+      <p id="loadingMsg">Processing…</p>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="toastContainer" class="toast-container" aria-live="polite"></div>
+
+  <!-- SCRIPTS -->
+  <script src="js/sampleData.js"></script>
+  <script src="js/parser.js"></script>
+  <script src="js/cleaner.js"></script>
+  <script src="js/analyzer.js"></script>
+  <script src="js/charts.js"></script>
+  <script src="js/sql.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
