@@ -1,5 +1,5 @@
 # Sales Performance Analysis & Interactive Dashboard
-
+# project hosted on https://ecommerse-peach.vercel.app/
 **Tools:** Python (Pandas, Matplotlib), SQL (SQLite), Excel (formulas, charts), Tableau
 
 End-to-end analysis of 6,000+ retail orders (Jan 2024 - Dec 2025) across 4 regions, 3 product categories and 24 products: from raw, messy data to an interactive dashboard for business decisions.
