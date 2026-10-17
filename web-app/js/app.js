@@ -9,17 +9,17 @@
    APP STATE
 ═══════════════════════════════════════════════════════════════════════ */
 const AppState = {
-  rawHeaders:    [],
-  rawRows:       [],
-  mapping:       {},
-  cleanedRows:   [],
-  changeLog:     [],
-  cleanStats:    {},
+  rawHeaders: [],
+  rawRows: [],
+  mapping: {},
+  cleanedRows: [],
+  changeLog: [],
+  cleanStats: {},
   activeFilters: {},
-  queryHistory:  [],
+  queryHistory: [],
   currentQueryCols: [],
   currentQueryRows: [],
-  cmEditor:      null,       // CodeMirror instance
+  cmEditor: null,       // CodeMirror instance
   analyticsData: null,       // last computed dashboard data
 };
 
@@ -50,8 +50,8 @@ function showToast(msg, type = 'info', duration = 3500) {
 
 function downloadBlob(content, filename, mime = 'text/csv') {
   const blob = new Blob([content], { type: mime });
-  const url  = URL.createObjectURL(blob);
-  const a    = document.createElement('a');
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
   a.href = url; a.download = filename;
   document.body.appendChild(a);
   a.click();
@@ -104,7 +104,7 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
 
   btn.addEventListener('click', () => {
     const current = html.getAttribute('data-theme');
-    const next    = current === 'dark' ? 'light' : 'dark';
+    const next = current === 'dark' ? 'light' : 'dark';
     html.setAttribute('data-theme', next);
     btn.textContent = next === 'dark' ? '☀️' : '🌙';
     localStorage.setItem('sda-theme', next);
@@ -141,8 +141,8 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
   // Click to open file dialog
   dropZone.addEventListener('click', e => {
     if (e.target === dropZone || e.target.classList.contains('drop-zone-inner') ||
-        e.target.classList.contains('drop-icon') || e.target.classList.contains('drop-title') ||
-        e.target.classList.contains('drop-sub')) {
+      e.target.classList.contains('drop-icon') || e.target.classList.contains('drop-title') ||
+      e.target.classList.contains('drop-sub')) {
       fileInput.click();
     }
   });
@@ -170,8 +170,8 @@ async function handleFile(file) {
     const { headers, rows } = await Parser.parseFile(file);
     if (!rows.length) throw new Error('The file contains no data rows.');
     AppState.rawHeaders = headers;
-    AppState.rawRows    = rows;
-    AppState.mapping    = Parser.autoDetectColumns(headers);
+    AppState.rawRows = rows;
+    AppState.mapping = Parser.autoDetectColumns(headers);
     renderRawPreview(headers, rows);
     showToast(`Loaded ${rows.length} rows from "${file.name}"`, 'success');
   } catch (err) {
@@ -186,11 +186,11 @@ function loadSampleData() {
   showLoading('Generating sample dataset…');
   setTimeout(() => {
     try {
-      const rows    = SampleData.generate(500);
+      const rows = SampleData.generate(500);
       const { headers, rows: parsedRows } = Parser.parseFromObjects(rows);
       AppState.rawHeaders = headers;
-      AppState.rawRows    = parsedRows;
-      AppState.mapping    = Parser.autoDetectColumns(headers);
+      AppState.rawRows = parsedRows;
+      AppState.mapping = Parser.autoDetectColumns(headers);
       renderRawPreview(headers, parsedRows);
       showToast('Sample dataset loaded (500 messy rows)', 'success');
     } catch (err) {
@@ -205,9 +205,9 @@ function loadSampleData() {
    RAW PREVIEW RENDER
 ═══════════════════════════════════════════════════════════════════════ */
 function renderRawPreview(headers, rows) {
-  const section  = document.getElementById('rawPreviewSection');
-  const head     = document.getElementById('rawPreviewHead');
-  const body     = document.getElementById('rawPreviewBody');
+  const section = document.getElementById('rawPreviewSection');
+  const head = document.getElementById('rawPreviewHead');
+  const body = document.getElementById('rawPreviewBody');
   const countBadge = document.getElementById('rawRowCount');
 
   section.classList.remove('hidden');
@@ -320,14 +320,14 @@ async function runCleaning() {
 
   try {
     // Apply column mapping; keepExtra=true so unmapped cols aren't lost
-    const mappedRows   = Parser.applyMapping(AppState.rawRows, AppState.mapping, true);
+    const mappedRows = Parser.applyMapping(AppState.rawRows, AppState.mapping, true);
     const enabledRules = getEnabledRules();
     const { cleanedRows, changeLog, stats, outlierRows } = Cleaner.clean(mappedRows, enabledRules);
 
-    AppState.cleanedRows  = cleanedRows;
-    AppState.changeLog    = changeLog;
-    AppState.cleanStats   = stats;
-    AppState.outlierRows  = outlierRows || [];
+    AppState.cleanedRows = cleanedRows;
+    AppState.changeLog = changeLog;
+    AppState.cleanStats = stats;
+    AppState.outlierRows = outlierRows || [];
 
     renderQualityReport(stats, mappedRows, cleanedRows, outlierRows || []);
     renderChangeLog(changeLog);
@@ -355,28 +355,28 @@ async function runCleaning() {
    QUALITY REPORT
 ═══════════════════════════════════════════════════════════════════════ */
 function renderQualityReport(stats, rawRows, cleanRows, outlierRows) {
-  const reportCard  = document.getElementById('qualityReport');
+  const reportCard = document.getElementById('qualityReport');
   const metricsGrid = document.getElementById('qualityMetrics');
   const beforeAfter = document.getElementById('beforeAfterGrid');
 
   reportCard.classList.remove('hidden');
 
   // Only profile columns actually present in BOTH raw and clean (exclude __ flags)
-  const rawCols   = new Set(rawRows.length   ? Object.keys(rawRows[0]).filter(k => !k.startsWith('__'))   : []);
+  const rawCols = new Set(rawRows.length ? Object.keys(rawRows[0]).filter(k => !k.startsWith('__')) : []);
   const cleanCols = new Set(cleanRows.length ? Object.keys(cleanRows[0]).filter(k => !k.startsWith('__')) : []);
   const sharedCols = [...rawCols].filter(c => cleanCols.has(c));
   const colSet = new Set(sharedCols);
 
-  const rawNulls   = Cleaner.nullCountsPerColumn(rawRows,   colSet);
+  const rawNulls = Cleaner.nullCountsPerColumn(rawRows, colSet);
   const cleanNulls = Cleaner.nullCountsPerColumn(cleanRows, colSet);
 
   metricsGrid.innerHTML = [
-    { label: 'Rows Before',        value: stats.totalRowsBefore,   color: 'blue'   },
-    { label: 'Rows After',         value: stats.totalRowsAfter,    color: 'green'  },
+    { label: 'Rows Before', value: stats.totalRowsBefore, color: 'blue' },
+    { label: 'Rows After', value: stats.totalRowsAfter, color: 'green' },
     { label: 'Duplicates Removed', value: stats.duplicatesRemoved, color: 'orange' },
-    { label: 'Nulls Filled',       value: stats.nullsFilled,       color: 'teal'   },
-    { label: 'Outliers Flagged',   value: stats.outliersDetected,  color: 'red'    },
-    { label: 'Dates Parsed',       value: stats.datesParsed,       color: 'purple' },
+    { label: 'Nulls Filled', value: stats.nullsFilled, color: 'teal' },
+    { label: 'Outliers Flagged', value: stats.outliersDetected, color: 'red' },
+    { label: 'Dates Parsed', value: stats.datesParsed, color: 'purple' },
   ].map(m => `
     <div class="metric-card ${m.color}">
       <div class="metric-value">${m.value.toLocaleString()}</div>
@@ -427,8 +427,8 @@ function renderQualityReport(stats, rawRows, cleanRows, outlierRows) {
 ═══════════════════════════════════════════════════════════════════════ */
 function renderChangeLog(logs) {
   const section = document.getElementById('changeLogSection');
-  const list    = document.getElementById('changeLogList');
-  const count   = document.getElementById('changeLogCount');
+  const list = document.getElementById('changeLogList');
+  const count = document.getElementById('changeLogCount');
 
   section.classList.remove('hidden');
   count.textContent = logs.length;
@@ -463,16 +463,16 @@ function initDashboard(rows) {
   const opts = Analyzer.getFilterOptions(rows);
 
   // Populate filter dropdowns
-  const regionSel   = document.getElementById('filterRegion');
+  const regionSel = document.getElementById('filterRegion');
   const categorySel = document.getElementById('filterCategory');
-  const segmentSel  = document.getElementById('filterSegment');
+  const segmentSel = document.getElementById('filterSegment');
 
-  regionSel.innerHTML   = '<option value="">All Regions</option>'   + opts.regions.map(v => `<option>${v}</option>`).join('');
+  regionSel.innerHTML = '<option value="">All Regions</option>' + opts.regions.map(v => `<option>${v}</option>`).join('');
   categorySel.innerHTML = '<option value="">All Categories</option>' + opts.categories.map(v => `<option>${v}</option>`).join('');
-  segmentSel.innerHTML  = '<option value="">All Segments</option>'   + opts.segments.map(v => `<option>${v}</option>`).join('');
+  segmentSel.innerHTML = '<option value="">All Segments</option>' + opts.segments.map(v => `<option>${v}</option>`).join('');
 
   document.getElementById('filterStartDate').value = opts.minDate;
-  document.getElementById('filterEndDate').value   = opts.maxDate;
+  document.getElementById('filterEndDate').value = opts.maxDate;
 
   AppState.activeFilters = {};
   renderDashboard(rows);
@@ -490,12 +490,12 @@ function renderDashboard(rows) {
 
   // Charts data
   AppState.analyticsData = {
-    monthly:     Analyzer.computeMonthlyTrend(filtered),
-    region:      Analyzer.computeRegionData(filtered),
-    category:    Analyzer.computeCategoryData(filtered),   // may be null
+    monthly: Analyzer.computeMonthlyTrend(filtered),
+    region: Analyzer.computeRegionData(filtered),
+    category: Analyzer.computeCategoryData(filtered),   // may be null
     topProducts: Analyzer.computeTopProducts(filtered),    // may be { unavailable: true }
-    discount:    Analyzer.computeDiscountBands(filtered),
-    qoq:         Analyzer.computeQoQ(filtered),
+    discount: Analyzer.computeDiscountBands(filtered),
+    qoq: Analyzer.computeQoQ(filtered),
   };
 
   Charts.refreshAll(AppState.analyticsData);
@@ -530,10 +530,10 @@ function renderKPIs(kpis) {
 document.getElementById('applyFilters').addEventListener('click', () => {
   AppState.activeFilters = {
     startDate: document.getElementById('filterStartDate').value || null,
-    endDate:   document.getElementById('filterEndDate').value   || null,
-    region:    document.getElementById('filterRegion').value    || null,
-    category:  document.getElementById('filterCategory').value  || null,
-    segment:   document.getElementById('filterSegment').value   || null,
+    endDate: document.getElementById('filterEndDate').value || null,
+    region: document.getElementById('filterRegion').value || null,
+    category: document.getElementById('filterCategory').value || null,
+    segment: document.getElementById('filterSegment').value || null,
   };
   renderDashboard(AppState.cleanedRows);
 });
@@ -542,10 +542,10 @@ document.getElementById('resetFilters').addEventListener('click', () => {
   AppState.activeFilters = {};
   const opts = Analyzer.getFilterOptions(AppState.cleanedRows);
   document.getElementById('filterStartDate').value = opts.minDate;
-  document.getElementById('filterEndDate').value   = opts.maxDate;
-  document.getElementById('filterRegion').value   = '';
+  document.getElementById('filterEndDate').value = opts.maxDate;
+  document.getElementById('filterRegion').value = '';
   document.getElementById('filterCategory').value = '';
-  document.getElementById('filterSegment').value  = '';
+  document.getElementById('filterSegment').value = '';
   renderDashboard(AppState.cleanedRows);
 });
 
@@ -586,19 +586,19 @@ function updateReconciliation() {
   try {
     const { rows } = SQLEngine.query('SELECT ROUND(SUM(sales), 2) AS sql_total FROM sales');
     const sqlTotal = rows.length ? parseFloat(rows[0]['sql_total']) : 0;
-    const result   = Analyzer.reconcile(AppState.cleanedRows, sqlTotal);
+    const result = Analyzer.reconcile(AppState.cleanedRows, sqlTotal);
 
     if (result.match) {
       badge.innerHTML = `
         <span class="recon-ok">
-          ✅ Reconciliation passed &mdash; Dashboard total (${Analyzer.fmt(result.jsSales,'₹')}) matches
-          SQL <code>SUM(sales)</code> (${Analyzer.fmt(result.sqlSales,'\u20b9')})
+          ✅ Reconciliation passed &mdash; Dashboard total (${Analyzer.fmt(result.jsSales, '₹')}) matches
+          SQL <code>SUM(sales)</code> (${Analyzer.fmt(result.sqlSales, '\u20b9')})
         </span>`;
     } else {
       badge.innerHTML = `
         <span class="recon-fail">
-          ❌ Reconciliation mismatch &mdash; Dashboard: ${Analyzer.fmt(result.jsSales,'\u20b9')},
-          SQL SUM(sales): ${Analyzer.fmt(result.sqlSales,'\u20b9')},
+          ❌ Reconciliation mismatch &mdash; Dashboard: ${Analyzer.fmt(result.jsSales, '\u20b9')},
+          SQL SUM(sales): ${Analyzer.fmt(result.sqlSales, '\u20b9')},
           diff: ${result.diff.toFixed(2)}
         </span>`;
     }
@@ -639,16 +639,16 @@ function initCodeMirror() {
   if (AppState.cmEditor) return;
   const theme = document.documentElement.getAttribute('data-theme') === 'dark' ? 'dracula' : 'eclipse';
   AppState.cmEditor = CodeMirror(document.getElementById('sqlEditorWrap'), {
-    mode:            'text/x-sql',
-    theme:           theme,
-    lineNumbers:     true,
-    matchBrackets:   true,
+    mode: 'text/x-sql',
+    theme: theme,
+    lineNumbers: true,
+    matchBrackets: true,
     autoCloseBrackets: true,
-    tabSize:         2,
-    indentWithTabs:  false,
+    tabSize: 2,
+    indentWithTabs: false,
     extraKeys: {
       'Ctrl-Enter': runQuery,
-      'Cmd-Enter':  runQuery,
+      'Cmd-Enter': runQuery,
     },
     value: `-- Welcome to the SQL Playground!\n-- Type a query below or pick an example above.\n\nSELECT * FROM sales LIMIT 10;`,
     lineWrapping: true,
@@ -668,7 +668,7 @@ function renderSchemaSidebar(schema) {
   `).join('');
 }
 
-window.insertColName = function(name) {
+window.insertColName = function (name) {
   if (AppState.cmEditor) {
     AppState.cmEditor.replaceSelection(name);
     AppState.cmEditor.focus();
@@ -676,7 +676,7 @@ window.insertColName = function(name) {
 };
 
 /* ── Example Queries ── */
-document.getElementById('exampleQueries').addEventListener('change', function() {
+document.getElementById('exampleQueries').addEventListener('change', function () {
   const id = this.value;
   if (!id) return;
   const sql = SQLEngine.getExampleQuery(id);
@@ -697,12 +697,12 @@ function runQuery() {
   const sql = AppState.cmEditor ? AppState.cmEditor.getValue().trim() : '';
   if (!sql) { showToast('Please enter a SQL query.', 'warn'); return; }
 
-  const errDiv      = document.getElementById('queryError');
-  const metaDiv     = document.getElementById('queryMeta');
+  const errDiv = document.getElementById('queryError');
+  const metaDiv = document.getElementById('queryMeta');
   const resultTable = document.getElementById('queryResultTable');
   const resultEmpty = document.getElementById('queryResultEmpty');
-  const dlBtn       = document.getElementById('downloadResultsBtn');
-  const chartBtn    = document.getElementById('chartResultBtn');
+  const dlBtn = document.getElementById('downloadResultsBtn');
+  const chartBtn = document.getElementById('chartResultBtn');
 
   errDiv.classList.add('hidden');
   errDiv.textContent = '';
@@ -835,7 +835,7 @@ function addToHistory(sql) {
   `).join('');
 }
 
-window.loadHistoryQuery = function(i) {
+window.loadHistoryQuery = function (i) {
   const q = fullQueryHistory[i];
   if (q && AppState.cmEditor) {
     AppState.cmEditor.setValue(q);
